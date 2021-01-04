@@ -1,0 +1,952 @@
+tag_id,is_tangled,PR_url,repo,manually_assigned_final_tag,taxonomy_tag,taxonomy_tag_id,root_category
+23848,0,https://github.com/apache/flink/pull/9906,apache/flink,wrong naming of components resulted in wrong refactoring direction|refactoring fails tests,"Decrease readability, Lead to build failure","C11, P21","Negative Effect On Functional/Non Functional Software Properties, Change"
+23378,0,https://github.com/Netflix/zuul/pull/256,Netflix/zuul,variable access change is not recommended,Lead to disagreement on variable types and accessibility,C20,Poor design and implementation decisions
+24211,1,https://github.com/SpigotMC/BungeeCord/pull/1874,SpigotMC/BungeeCord,unrelated changes with no indication what to address,Lead to disagreement on overall benefit of refactoring,C4,Risky or with Limited/Unclear benefits
+23585,1,https://github.com/apache/kafka/pull/8249,apache/kafka,type replacement makes no sense|refactoring might break functionality,"Introduce bugs/break APIs/breaks compatibility, Lead to disagreement on overall benefit of refactoring","C8, C4","Negative Effect On Functional/Non Functional Software Properties, Risky or with Limited/Unclear benefits"
+24353,1,https://github.com/cloudfoundry/uaa/pull/81,cloudfoundry/uaa,too much change compared to the current master,Are too large,P12,PR size and content
+22998,1,https://github.com/bisq-network/bisq/pull/2080,bisq-network/bisq,too much change & refactoring for single pr (talked on phone),Are too large,P12,PR size and content
+23519,0,https://github.com/Anuken/Mindustry/pull/2150,Anuken/Mindustry,too much change & refactoring for single pr,Are too large,P12,PR size and content
+23524,1,https://github.com/azkaban/azkaban/pull/996,azkaban/azkaban,too much change & refactoring for single pr,Are too large,P12,PR size and content
+23618,1,https://github.com/GlowstoneMC/Glowstone/pull/188,GlowstoneMC/Glowstone,too much change & refactoring for single pr,Are too large,P12,PR size and content
+23819,1,https://github.com/Maescool/Catacomb-Snatch/pull/431,Maescool/Catacomb-Snatch,too much change & refactoring for single pr,Are too large,P12,PR size and content
+23906,1,https://github.com/elastic/elasticsearch/pull/35895,elastic/elasticsearch,too much change & refactoring for single pr,Are too large,P12,PR size and content
+23967,0,https://github.com/signalapp/Signal-Android/pull/4779,signalapp/Signal-Android,too much change & refactoring for single PR,Are too large,P12,PR size and content
+24505,0,https://github.com/TEAMMATES/teammates/pull/6859,TEAMMATES/teammates,too much change & refactoring for single pr,Are too large,P12,PR size and content
+24510,1,https://github.com/TEAMMATES/teammates/pull/6480,TEAMMATES/teammates,too much change & refactoring for single pr,Are too large,P12,PR size and content
+23075,1,https://github.com/georgewfraser/java-language-server/pull/30,georgewfraser/java-language-server,"too heavy use of design patterns, instead of simple logic",Contain inappropriate use of design patterns,C16,Poor design and implementation decisions
+23269,1,https://github.com/jenkinsci/ec2-plugin/pull/216,jenkinsci/ec2-plugin,"there are other open challenges that are not addressed in the closed pr, thus doubt the value",Lead to disagreement on overall benefit of refactoring,C4,Risky or with Limited/Unclear benefits
+23617,1,https://github.com/GlowstoneMC/Glowstone/pull/928,GlowstoneMC/Glowstone,the refactoring will make the program abort when certain exception occurs,Introduce bugs/break APIs/breaks compatibility,C8,Negative Effect On Functional/Non Functional Software Properties
+23476,1,https://github.com/kiegroup/jbpm/pull/313,kiegroup/jbpm,the refactored logic could cause bugs (race conditions)|refactoring needs extra test,"Introduce bugs/break APIs/breaks compatibility, Need additional testing","C8, C24","Negative Effect On Functional/Non Functional Software Properties, Additional work needs to be performed"
+24139,1,https://github.com/openmrs/openmrs-core/pull/1529,openmrs/openmrs-core,the contributor pauses working on the pr,Are inactive: (author/community),P19,Planning
+23350,1,https://github.com/apache/geode/pull/2846,apache/geode,tests must be strengthen before refactoring the code,Need additional testing,C24,Additional work needs to be performed
+23830,1,https://github.com/inception-project/inception/pull/1440,inception-project/inception,tangled commits; naming conventions; coding style.,"Do not adhere to coding conventions, Are not cohesive - tangled change","C13, P11","Negative Effect On Functional/Non Functional Software Properties, PR size and content"
+23504,1,https://github.com/prestodb/presto/pull/3409,prestodb/presto,Superceded by another pr,Are implemented by other PRs/developers,P2,Change
+24462,1,https://github.com/smartdevicelink/sdl_java_suite/pull/69,smartdevicelink/sdl_java_suite,stale,Are inactive: (author/community),P19,Planning
+23669,0,https://github.com/eclipse/jetty.project/pull/773,eclipse/jetty.project,splitting responsibilities between abstract class default methods and interface,Contain poor responsibility distribution among classes or modules,C15,Poor design and implementation decisions
+23959,1,https://github.com/pmd/pmd/pull/622,pmd/pmd,split the refactoring stuff into a clean pr leaving the other stuffs there,Are not cohesive - tangled change,P11,PR size and content
+23461,1,https://github.com/flightstats/hub/pull/1067,flightstats/hub,something was incorrect after the merge,Introduces merge conflicts,P5,Conflicts
+24393,1,https://github.com/naman14/Timber/pull/335,naman14/Timber,some bigger changes needed to make it work,Do not fully address the code quality issues,C25,Additional work needs to be performed
+24331,1,https://github.com/Alluxio/alluxio/pull/729,Alluxio/alluxio,self-closed to address formatting issues,Do not adhere to coding conventions,C13,Negative Effect On Functional/Non Functional Software Properties
+23254,1,https://github.com/cgeo/cgeo/pull/386,cgeo/cgeo,self-close to submit after new release,Are postoponed to new release,P18,Planning
+23878,0,https://github.com/apache/flink/pull/7809,apache/flink,self-close as no longer working on the pr in the following days after reviewers comments on constructor removal,Lead to disagreement on the exposed interfaces,C19,Poor design and implementation decisions
+23659,0,https://github.com/yegor256/takes/pull/648,yegor256/takes,self-close as no longer working on the pr after reviewers comments on constructor removal,Lead to disagreement on the exposed interfaces,C19,Poor design and implementation decisions
+23743,1,https://github.com/dhis2/dhis2-core/pull/2973,dhis2/dhis2-core,self-close after the reviewer pointed out refactoring does not adhere to coding style,Do not adhere to coding conventions,C13,Negative Effect On Functional/Non Functional Software Properties
+24092,0,https://github.com/vanilla-music/vanilla/pull/645,vanilla-music/vanilla,self-close after reviewer pointed out refactoring does not adhere to coding style,Do not adhere to coding conventions,C13,Negative Effect On Functional/Non Functional Software Properties
+24129,1,https://github.com/Azure/azure-iot-sdk-java/pull/540,Azure/azure-iot-sdk-java,self close to look into a higher jdk version instead,Are obsolete,P1,Change
+23394,1,https://github.com/saros-project/saros/pull/276,saros-project/saros,self close after reviewer pointed out refactoring does not adhere to coding style (sonarcloud),Do not adhere to coding conventions,C13,Negative Effect On Functional/Non Functional Software Properties
+24472,1,https://github.com/MovingBlocks/Terasology/pull/3230,MovingBlocks/Terasology,same change in a different already merged pr,Are implemented by other PRs/developers,P2,Change
+23587,0,https://github.com/apache/kafka/pull/6766,apache/kafka,reviewers don't agree with the design decision|refactoring lowers understandability,Decrease readability,C11,Negative Effect On Functional/Non Functional Software Properties
+24419,0,https://github.com/spring-projects/spring-framework/pull/1142,spring-projects/spring-framework,reviewer suggested a new identifier name,Do not adhere to coding conventions,C13,Negative Effect On Functional/Non Functional Software Properties
+24048,1,https://github.com/Awful/Awful.apk/pull/695,Awful/Awful.apk,reviewer doesn't agree with design decision|refactoring increases complexity,Increase complexity,C12,Negative Effect On Functional/Non Functional Software Properties
+23829,0,https://github.com/inception-project/inception/pull/1448,inception-project/inception,renamed method lowers readability,Decrease readability,C11,Negative Effect On Functional/Non Functional Software Properties
+23840,1,https://github.com/processing/processing/pull/5313,processing/processing,removed code could be useful in future|reviewer doesn't want to merge code which does not change functionality but only makes it more detailed,"Lead to disagreement on overall benefit of refactoring, Conflict with planned code changes","C4, C7","Risky or with Limited/Unclear benefits, Risky or with Limited/Unclear benefits"
+24396,1,https://github.com/geonetwork/core-geonetwork/pull/3938,geonetwork/core-geonetwork,relevant refactoring will not be processed at that moment,Are postoponed to new release,P18,Planning
+24371,1,https://github.com/palantir/atlasdb/pull/4718,palantir/atlasdb,refactors not needed functionality,Are obsolete,P1,Change
+24355,1,https://github.com/cdapio/cdap/pull/7155,cdapio/cdap,refactoring would not support functionality required by library client projects,Introduce bugs/break APIs/breaks compatibility,C8,Negative Effect On Functional/Non Functional Software Properties
+23418,1,https://github.com/FasterXML/jackson-core/pull/321,FasterXML/jackson-core,refactoring without performance analysis cannot be merged,Need additional testing,C24,Additional work needs to be performed
+23248,0,https://github.com/brianwernick/ExoMedia/pull/645,brianwernick/ExoMedia,refactoring will soon become unnecessary due to migration to kotlin,Conflict with planned code changes,C7,Risky or with Limited/Unclear benefits
+23904,0,https://github.com/elastic/elasticsearch/pull/38970,elastic/elasticsearch,refactoring violates security/permissions|refactoring could break compatibility,Introduce bugs/break APIs/breaks compatibility,C8,Negative Effect On Functional/Non Functional Software Properties
+23952,1,https://github.com/ebean-orm/ebean/pull/1146,ebean-orm/ebean,refactoring unneeded considering what the system will adhere in the future (moving to java 9 makes it unneeded),Conflict with planned code changes,C7,Risky or with Limited/Unclear benefits
+23287,0,https://github.com/embulk/embulk/pull/152,embulk/embulk,refactoring unnecessary considering the current memory allocation,Decrease readability,C11,Negative Effect On Functional/Non Functional Software Properties
+24459,0,https://github.com/jacoco/jacoco/pull/260,jacoco/jacoco,refactoring splits integration test to improve readability,Contain choices of non-optimal design solutions,C17,Poor design and implementation decisions
+24532,1,https://github.com/codice/ddf/pull/4124,codice/ddf,refactoring solution is not optimal|outdated,Contain choices of non-optimal design solutions,C17,Poor design and implementation decisions
+23101,1,https://github.com/getodk/collect/pull/3127,getodk/collect,refactoring solution is not optimal|design disagreement: polymorphism,Contain choices of non-optimal design solutions,C17,Poor design and implementation decisions
+24206,1,https://github.com/micronaut-projects/micronaut-core/pull/2397,micronaut-projects/micronaut-core,refactoring solution is not optimal|design disagreement,Contain choices of non-optimal design solutions,C17,Poor design and implementation decisions
+23485,1,https://github.com/prestodb/presto/pull/13337,prestodb/presto,refactoring solution is not optimal|better proposal for refactoring in another pr,Contain choices of non-optimal design solutions,C17,Poor design and implementation decisions
+23781,1,https://github.com/INRIA/spoon/pull/1741,INRIA/spoon,refactoring solution is not optimal|better proposal for refactoring in another pr,Contain choices of non-optimal design solutions,C17,Poor design and implementation decisions
+23207,1,https://github.com/Bukkit/Bukkit/pull/279,Bukkit/Bukkit,refactoring solution is not optimal,Contain choices of non-optimal design solutions,C17,Poor design and implementation decisions
+23290,0,https://github.com/graphql-java/graphql-java/pull/557,graphql-java/graphql-java,refactoring solution is not optimal,Contain choices of non-optimal design solutions,C17,Poor design and implementation decisions
+24501,0,https://github.com/TEAMMATES/teammates/pull/7978,TEAMMATES/teammates,refactoring should not be done on the master|similar to another pr,Do not follow PR process,P6,Contributor
+23098,1,https://github.com/PCGen/pcgen/pull/6128,PCGen/pcgen,refactoring review is too much work vs value,Lead to disagreement on overall benefit of refactoring,C4,Risky or with Limited/Unclear benefits
+23241,1,https://github.com/addthis/hydra/pull/94,addthis/hydra,refactoring review is too much work vs value,Lead to disagreement on overall benefit of refactoring,C4,Risky or with Limited/Unclear benefits
+24357,1,https://github.com/cdapio/cdap/pull/1486,cdapio/cdap,refactoring review is too much work vs value,Lead to disagreement on overall benefit of refactoring,C4,Risky or with Limited/Unclear benefits
+24523,1,https://github.com/OpenNMS/opennms/pull/484,OpenNMS/opennms,refactoring review is too much work vs value,Lead to disagreement on overall benefit of refactoring,C4,Risky or with Limited/Unclear benefits
+23466,0,https://github.com/ReactiveX/RxJava/pull/4143,ReactiveX/RxJava,"refactoring relies on java 8 features, while project adopts java 6",Do not adhere to coding conventions,C13,Negative Effect On Functional/Non Functional Software Properties
+23194,0,https://github.com/TheAlgorithms/Java/pull/519,TheAlgorithms/Java,"refactoring relies on java 10 features, while project adopts java 8",Do not adhere to coding conventions,C13,Negative Effect On Functional/Non Functional Software Properties
+23141,0,https://github.com/apache/cloudstack/pull/1359,apache/cloudstack,refactoring on a old release,Are obsolete,P1,Change
+24107,1,https://github.com/spring-cloud/spring-cloud-commons/pull/565,spring-cloud/spring-cloud-commons,refactoring negatively impacts performance|refactoring breaks functionality,"Degrade performance/memory usage, Introduce bugs/break APIs/breaks compatibility","C10, C8","Negative Effect On Functional/Non Functional Software Properties, Negative Effect On Functional/Non Functional Software Properties"
+23723,0,https://github.com/spotify/helios/pull/989,spotify/helios,refactoring negatively impacts performance|checkstyle rules fail,"Degrade performance/memory usage, Lead to build failure","C10, P21","Negative Effect On Functional/Non Functional Software Properties, Change"
+23665,0,https://github.com/eclipse/jetty.project/pull/2838,eclipse/jetty.project,refactoring negatively impacts performance,Degrade performance/memory usage,C10,Negative Effect On Functional/Non Functional Software Properties
+24273,0,https://github.com/drewnoakes/metadata-extractor/pull/46,drewnoakes/metadata-extractor,refactoring negatively impacts performance,Degrade performance/memory usage,C10,Negative Effect On Functional/Non Functional Software Properties
+24536,1,https://github.com/kairosdb/kairosdb/pull/275,kairosdb/kairosdb,refactoring negatively impacts performance,Degrade performance/memory usage,C10,Negative Effect On Functional/Non Functional Software Properties
+24044,0,https://github.com/apache/rocketmq/pull/38,apache/rocketmq,refactoring needs extra test; too many formatting issues are not justified together with the great number of commits aimed at formatting the code,Need additional testing,C24,Additional work needs to be performed
+23201,1,https://github.com/OpenRefine/OpenRefine/pull/857,OpenRefine/OpenRefine,refactoring needs extra test,Need additional testing,C24,Additional work needs to be performed
+23279,1,https://github.com/graknlabs/grakn/pull/611,graknlabs/grakn,refactoring needs extra test,Need additional testing,C24,Additional work needs to be performed
+24464,1,https://github.com/ls1intum/Artemis/pull/1331,ls1intum/Artemis,refactoring might break functionality,Introduce bugs/break APIs/breaks compatibility,C8,Negative Effect On Functional/Non Functional Software Properties
+24392,1,https://github.com/scalecube/scalecube-services/pull/511,scalecube/scalecube-services,refactoring might break api|refactoring does not provide any value,Introduce bugs/break APIs/breaks compatibility,C8,Negative Effect On Functional/Non Functional Software Properties
+22992,1,https://github.com/apache/druid/pull/3766,apache/druid,refactoring makes wrong assumptions about requirements/domain (goal has been to move towards a single concept of Granularity and now we have 3 granularities),"Violate requirement assumptions, domain, design assumptions",C9,Negative Effect On Functional/Non Functional Software Properties
+23185,0,https://github.com/debezium/debezium/pull/292,debezium/debezium,refactoring makes debugging more difficult|refactoring decreases understandability|refactoring decreases reusability,Decrease readability,C11,Negative Effect On Functional/Non Functional Software Properties
+23089,1,https://github.com/spring-projects/spring-integration/pull/446,spring-projects/spring-integration,refactoring makes code more complex for no need (against kiss principle),Increase complexity,C12,Negative Effect On Functional/Non Functional Software Properties
+24269,1,https://github.com/apache/incubator-heron/pull/221,apache/incubator-heron,refactoring lowers understandability|refactoring breaks functionality,"Decrease readability, Introduce bugs/break APIs/breaks compatibility","C11, C8","Negative Effect On Functional/Non Functional Software Properties, Negative Effect On Functional/Non Functional Software Properties"
+23770,0,https://github.com/INRIA/spoon/pull/2245,INRIA/spoon,refactoring lowers understandability,Decrease readability,C11,Negative Effect On Functional/Non Functional Software Properties
+24277,0,https://github.com/junit-team/junit4/pull/1261,junit-team/junit4,refactoring lowers understandability,Decrease readability,C11,Negative Effect On Functional/Non Functional Software Properties
+24500,0,https://github.com/TEAMMATES/teammates/pull/8165,TEAMMATES/teammates,refactoring lowers understandability,Decrease readability,C11,Negative Effect On Functional/Non Functional Software Properties
+23760,0,https://github.com/INRIA/spoon/pull/2520,INRIA/spoon,refactoring lowers readability,Decrease readability,C11,Negative Effect On Functional/Non Functional Software Properties
+23455,0,https://github.com/improbable-research/keanu/pull/140,improbable-research/keanu,refactoring is too big for single pr|refactoring increases complexity,"Are too large, Increase complexity","P12, C12","Negative Effect On Functional/Non Functional Software Properties, PR size and content"
+23634,1,https://github.com/termux/termux-app/pull/1342,termux/termux-app,refactoring is too big for single PR|refactoring creates merge conflict,"Introduces merge conflicts, Are too large","P5, P12","Conflicts, PR size and content"
+23425,1,https://github.com/apache/servicecomb-pack/pull/391,apache/servicecomb-pack,refactoring is too big for single PR|refactoring creates merge conflict,"Introduces merge conflicts, Are too large","P5, P12","Conflicts, PR size and content"
+23908,1,https://github.com/elastic/elasticsearch/pull/32017,elastic/elasticsearch,refactoring is too big for single pr,Are too large,P12,PR size and content
+23051,0,https://github.com/zxing/zxing/pull/603,zxing/zxing,refactoring is too big for single pr,Are too large,P12,PR size and content
+23103,1,https://github.com/getodk/collect/pull/1253,getodk/collect,refactoring is too big for single PR,Are too large,P12,PR size and content
+23198,0,https://github.com/HotelsDotCom/styx/pull/66,HotelsDotCom/styx,refactoring is too big for single PR,Are too large,P12,PR size and content
+23247,1,https://github.com/zalando/opentracing-toolbox/pull/81,zalando/opentracing-toolbox,refactoring is too big for single PR,Are too large,P12,PR size and content
+23291,1,https://github.com/graphql-java/graphql-java/pull/1881,graphql-java/graphql-java,refactoring is too big for single PR,Are too large,P12,PR size and content
+23465,1,https://github.com/jtalks-org/jcommune/pull/25,jtalks-org/jcommune,refactoring is too big for single PR,Are too large,P12,PR size and content
+23490,1,https://github.com/prestodb/presto/pull/11856,prestodb/presto,refactoring is too big for single PR,Are too large,P12,PR size and content
+23969,1,https://github.com/signalapp/Signal-Android/pull/4248,signalapp/Signal-Android,refactoring is too big for single PR,Are too large,P12,PR size and content
+24138,1,https://github.com/openmrs/openmrs-core/pull/2738,openmrs/openmrs-core,refactoring is too big for single PR,Are too large,P12,PR size and content
+24146,1,https://github.com/CODAIT/stocator/pull/46,CODAIT/stocator,refactoring is too big for single pr,Are too large,P12,PR size and content
+24318,0,https://github.com/googleapis/java-bigtable-hbase/pull/1253,googleapis/java-bigtable-hbase,refactoring is too big for single pr,Are too large,P12,PR size and content
+24354,1,https://github.com/cdapio/cdap/pull/9968,cdapio/cdap,refactoring is too big for single PR,Are too large,P12,PR size and content
+24460,0,https://github.com/jacoco/jacoco/pull/252,jacoco/jacoco,refactoring is too big for single pr,Are too large,P12,PR size and content
+22988,0,https://github.com/Texera/texera/pull/330,Texera/texera,refactoring is outdated|too much change & refactoring for single pr,"Are obsolete, Are too large","P1, P12",Change
+23835,1,https://github.com/dropwizard/metrics/pull/216,dropwizard/metrics,refactoring is outdated|refactoring creates merge conflict,"Are obsolete, Introduces merge conflicts","P1, P5","Change, Conflicts"
+23638,0,https://github.com/rackerlabs/blueflood/pull/246,rackerlabs/blueflood,refactoring is outdated. The change is already pushed to master,Are implemented by other PRs/developers,P2,Change
+23396,0,https://github.com/saros-project/saros/pull/258,saros-project/saros,refactoring is outdated,Are obsolete,P1,Change
+23436,0,https://github.com/ballerina-platform/ballerina-lang/pull/5213,ballerina-platform/ballerina-lang,refactoring is outdated,Are obsolete,P1,Change
+23437,0,https://github.com/ballerina-platform/ballerina-lang/pull/4861,ballerina-platform/ballerina-lang,refactoring is outdated,Are obsolete,P1,Change
+23438,1,https://github.com/ballerina-platform/ballerina-lang/pull/4563,ballerina-platform/ballerina-lang,refactoring is outdated,Are obsolete,P1,Change
+23439,1,https://github.com/ballerina-platform/ballerina-lang/pull/3351,ballerina-platform/ballerina-lang,refactoring is outdated,Are obsolete,P1,Change
+23477,0,https://github.com/kiegroup/jbpm/pull/10,kiegroup/jbpm,refactoring is outdated,Are obsolete,P1,Change
+23715,1,https://github.com/apache/samza/pull/445,apache/samza,refactoring is outdated,Are obsolete,P1,Change
+24029,0,https://github.com/apache/lucene-solr/pull/88,apache/lucene-solr,refactoring is outdated,Are obsolete,P1,Change
+24187,0,https://github.com/apache/wicket/pull/28,apache/wicket,refactoring is outdated,Are obsolete,P1,Change
+24275,1,https://github.com/DSpace/DSpace/pull/816,DSpace/DSpace,refactoring is outdated,Are obsolete,P1,Change
+24467,0,https://github.com/ls1intum/Artemis/pull/127,ls1intum/Artemis,refactoring is outdated,Conflict with planned code changes,C7,Risky or with Limited/Unclear benefits
+24229,1,https://github.com/gitblit/gitblit/pull/273,gitblit/gitblit,refactoring is incompatible with other open pr,Conflict with another PR,P4,Conflicts
+23783,1,https://github.com/INRIA/spoon/pull/1356,INRIA/spoon,refactoring involved in a different PR,Conflict with another PR,P4,Conflicts
+23675,1,https://github.com/resilience4j/resilience4j/pull/330,resilience4j/resilience4j,refactoring introduces thread synchronization problems,Degrade performance/memory usage,C10,Negative Effect On Functional/Non Functional Software Properties
+24332,0,https://github.com/Alluxio/alluxio/pull/595,Alluxio/alluxio,refactoring introduces concurrency bugs,Introduce bugs/break APIs/breaks compatibility,C8,Negative Effect On Functional/Non Functional Software Properties
+24540,0,https://github.com/netty/netty/pull/4606,netty/netty,refactoring increases memory usage,Degrade performance/memory usage,C10,Negative Effect On Functional/Non Functional Software Properties
+24231,1,https://github.com/twosigma/beakerx/pull/6145,twosigma/beakerx,"refactoring increases complexity: too many try blocks, indentation, over-complicated statements","Increase complexity, Contain problematic exception handling","C12, C21","Negative Effect On Functional/Non Functional Software Properties, Poor design and implementation decisions"
+23622,1,https://github.com/ldtteam/minecolonies/pull/1148,ldtteam/minecolonies,refactoring increases complexity (sonarqube warnings),Increase complexity,C12,Negative Effect On Functional/Non Functional Software Properties
+23345,1,https://github.com/selenide/selenide/pull/1009,selenide/selenide,refactoring increases complexity (long parameter list),"Decrease readability, Increase complexity","C11, C12","Negative Effect On Functional/Non Functional Software Properties, Negative Effect On Functional/Non Functional Software Properties"
+24249,0,https://github.com/perwendel/spark/pull/245,perwendel/spark,refactoring has an unhandled exception,Contain problematic exception handling,C21,Poor design and implementation decisions
+23068,0,https://github.com/iluwatar/java-design-patterns/pull/786,iluwatar/java-design-patterns,refactoring for performance is not considered as it is not a real project,Are obsolete,P1,Change
+23653,0,https://github.com/joel-costigliola/assertj-core/pull/310,joel-costigliola/assertj-core,refactoring for DRY principle causes readability reduction,Decrease readability,C11,Negative Effect On Functional/Non Functional Software Properties
+23221,0,https://github.com/SonarSource/sonarqube/pull/2790,SonarSource/sonarqube,refactoring fails the build | refactoring is too big for single PR,"Lead to build failure, Are too large","P21, P12","PR size and content, Change"
+23325,0,https://github.com/openMF/mifos-mobile/pull/122,openMF/mifos-mobile,refactoring fails the build,Lead to build failure,P21,Change
+24060,1,https://github.com/wildfly/wildfly/pull/7393,wildfly/wildfly,refactoring fails the build,Lead to build failure,P21,Change
+24538,1,https://github.com/dropwizard/dropwizard/pull/1118,dropwizard/dropwizard,refactoring fails the build,Lead to build failure,P21,Change
+24556,0,https://github.com/geotools/geotools/pull/1355,geotools/geotools,refactoring fails the build,Lead to build failure,P21,Change
+23210,0,https://github.com/triplea-game/triplea/pull/987,triplea-game/triplea,refactoring fails tests,Lead to build failure,P21,Change
+23215,0,https://github.com/wso2/product-ei/pull/1336,wso2/product-ei,refactoring fails tests,Lead to build failure,P21,Change
+23609,0,https://github.com/linkedin/ambry/pull/1300,linkedin/ambry,refactoring fails tests,Lead to build failure,P21,Change
+23682,0,https://github.com/EnMasseProject/enmasse/pull/4257,EnMasseProject/enmasse,refactoring fails tests,Lead to build failure,P21,Change
+23685,1,https://github.com/EnMasseProject/enmasse/pull/3020,EnMasseProject/enmasse,refactoring fails tests,Lead to build failure,P21,Change
+23686,1,https://github.com/EnMasseProject/enmasse/pull/3016,EnMasseProject/enmasse,refactoring fails tests,Lead to build failure,P21,Change
+23687,0,https://github.com/EnMasseProject/enmasse/pull/3013,EnMasseProject/enmasse,refactoring fails tests,Lead to build failure,P21,Change
+23955,1,https://github.com/OpenLiberty/open-liberty/pull/5404,OpenLiberty/open-liberty,refactoring fails tests,Lead to build failure,P21,Change
+23834,1,https://github.com/dropwizard/metrics/pull/307,dropwizard/metrics,refactoring does not provide enough value to the actual code base,Lead to disagreement on overall benefit of refactoring,C4,Risky or with Limited/Unclear benefits
+24251,1,https://github.com/apache/dubbo-admin/pull/503,apache/dubbo-admin,refactoring does not provide any value + has merge conflicts,"Lead to disagreement on overall benefit of refactoring, Introduces merge conflicts","C4, P5","Risky or with Limited/Unclear benefits, Conflicts"
+23701,1,https://github.com/runelite/runelite/pull/7909,runelite/runelite,refactoring does not provide any value + coding standards are not met,"Do not adhere to coding conventions, Lead to disagreement on overall benefit of refactoring","C13, C4",Negative Effect On Functional/Non Functional Software Properties
+23329,1,https://github.com/TeamAmaze/AmazeFileManager/pull/1249,TeamAmaze/AmazeFileManager,refactoring does not provide any value,Lead to disagreement on overall benefit of refactoring,C4,Risky or with Limited/Unclear benefits
+23348,0,https://github.com/apache/geode/pull/3816,apache/geode,refactoring does not provide any value,Lead to disagreement on overall benefit of refactoring,C4,Risky or with Limited/Unclear benefits
+23494,1,https://github.com/prestodb/presto/pull/8521,prestodb/presto,refactoring does not provide any value,Lead to disagreement on overall benefit of refactoring,C4,Risky or with Limited/Unclear benefits
+23759,0,https://github.com/INRIA/spoon/pull/2670,INRIA/spoon,refactoring does not provide any value,Lead to disagreement on overall benefit of refactoring,C4,Risky or with Limited/Unclear benefits
+23875,0,https://github.com/apache/flink/pull/10104,apache/flink,refactoring does not provide any value,Lead to disagreement on overall benefit of refactoring,C4,Risky or with Limited/Unclear benefits
+23981,0,https://github.com/jenkinsci/jenkins/pull/4643,jenkinsci/jenkins,refactoring does not provide any value,Lead to disagreement on overall benefit of refactoring,C4,Risky or with Limited/Unclear benefits
+24340,0,https://github.com/jenkinsci/blueocean-plugin/pull/1511,jenkinsci/blueocean-plugin,refactoring does not provide any value,Lead to disagreement on overall benefit of refactoring,C4,Risky or with Limited/Unclear benefits
+24415,1,https://github.com/spring-projects/spring-framework/pull/1360,spring-projects/spring-framework,refactoring does not adhere to naming convention,Do not adhere to coding conventions,C13,Negative Effect On Functional/Non Functional Software Properties
+23226,0,https://github.com/SonarSource/sonarqube/pull/524,SonarSource/sonarqube,refactoring does not adhere to coding style|refactoring lowers readability,"Do not adhere to coding conventions, Decrease readability","C13, C11","Negative Effect On Functional/Non Functional Software Properties, Negative Effect On Functional/Non Functional Software Properties"
+24507,1,https://github.com/TEAMMATES/teammates/pull/6672,TEAMMATES/teammates,refactoring does not adhere to coding style: refactoring does not adhere to naming convention,Do not adhere to coding conventions,C13,Negative Effect On Functional/Non Functional Software Properties
+23703,0,https://github.com/runelite/runelite/pull/4780,runelite/runelite,refactoring does not adhere to coding style and needs rebasing,Do not adhere to coding conventions,C13,Negative Effect On Functional/Non Functional Software Properties
+23301,0,https://github.com/VoltDB/voltdb/pull/2459,VoltDB/voltdb,refactoring does not adhere to coding style,Do not adhere to coding conventions,C13,Negative Effect On Functional/Non Functional Software Properties
+23420,1,https://github.com/apache/skywalking/pull/4264,apache/skywalking,refactoring does not adhere to coding style,Do not adhere to coding conventions,C13,Negative Effect On Functional/Non Functional Software Properties
+23633,0,https://github.com/junit-team/junit5/pull/198,junit-team/junit5,refactoring does not adhere to coding style,Do not adhere to coding conventions,C13,Negative Effect On Functional/Non Functional Software Properties
+23667,0,https://github.com/eclipse/jetty.project/pull/821,eclipse/jetty.project,refactoring does not adhere to coding style,Do not adhere to coding conventions,C13,Negative Effect On Functional/Non Functional Software Properties
+23700,0,https://github.com/runelite/runelite/pull/10127,runelite/runelite,refactoring does not adhere to coding style,Do not adhere to coding conventions,C13,Negative Effect On Functional/Non Functional Software Properties
+24282,0,https://github.com/apache/attic-apex-core/pull/129,apache/attic-apex-core,refactoring does not adhere to coding style,Do not adhere to coding conventions,C13,Negative Effect On Functional/Non Functional Software Properties
+24314,0,https://github.com/googleapis/java-bigtable-hbase/pull/2383,googleapis/java-bigtable-hbase,refactoring does not adhere to coding style,Do not adhere to coding conventions,C13,Negative Effect On Functional/Non Functional Software Properties
+24513,0,https://github.com/TEAMMATES/teammates/pull/6279,TEAMMATES/teammates,refactoring does not adhere to coding style,Do not adhere to coding conventions,C13,Negative Effect On Functional/Non Functional Software Properties
+24453,0,https://github.com/farkam135/GoIV/pull/73,farkam135/GoIV,refactoring creates merge conflicts,Introduces merge conflicts,P5,Conflicts
+23914,1,https://github.com/elastic/elasticsearch/pull/21698,elastic/elasticsearch,refactoring creates merge conflict.Closed and re-opened in the future,Introduces merge conflicts,P5,Conflicts
+23242,0,https://github.com/vaadin/flow/pull/691,vaadin/flow,refactoring creates merge conflict and replaced by another pr,"Introduces merge conflicts, Conflict with another PR","P5, P4","Conflicts, Conflicts"
+23193,1,https://github.com/TheAlgorithms/Java/pull/661,TheAlgorithms/Java,refactoring creates merge conflict | used wrong branch,Introduces merge conflicts,P5,Conflicts
+24109,1,https://github.com/Netflix/eureka/pull/529,Netflix/eureka,refactoring creates merge conflict,Introduces merge conflicts,P5,Conflicts
+23074,1,https://github.com/estatio/estatio/pull/48,estatio/estatio,refactoring creates merge conflict,Introduces merge conflicts,P5,Conflicts
+23107,0,https://github.com/apache/tinkerpop/pull/10,apache/tinkerpop,refactoring creates merge conflict,Introduces merge conflicts,P5,Conflicts
+23460,0,https://github.com/flightstats/hub/pull/1084,flightstats/hub,refactoring creates merge conflict,Introduces merge conflicts,P5,Conflicts
+23962,0,https://github.com/seata/seata/pull/2463,seata/seata,refactoring creates merge conflict,Introduces merge conflicts,P5,Conflicts
+23974,0,https://github.com/wso2/product-is/pull/402,wso2/product-is,refactoring creates merge conflict,Introduces merge conflicts,P5,Conflicts
+23983,1,https://github.com/jenkinsci/jenkins/pull/3664,jenkinsci/jenkins,refactoring creates merge conflict,Introduces merge conflicts,P5,Conflicts
+24222,0,https://github.com/nextcloud/android/pull/515,nextcloud/android,refactoring creates merge conflict,Introduces merge conflicts,P5,Conflicts
+24358,1,https://github.com/cdapio/cdap/pull/1456,cdapio/cdap,refactoring creates merge conflict,Introduces merge conflicts,P5,Conflicts
+24468,1,https://github.com/actiontech/dble/pull/1694,actiontech/dble,refactoring creates merge conflict,Introduces merge conflicts,P5,Conflicts
+24530,0,https://github.com/codice/ddf/pull/4511,codice/ddf,refactoring creates merge conflict,Introduces merge conflicts,P5,Conflicts
+24497,1,https://github.com/TEAMMATES/teammates/pull/9486,TEAMMATES/teammates,refactoring conflicts with ongoing api changes,Conflict with planned code changes,C7,Risky or with Limited/Unclear benefits
+23986,1,https://github.com/jenkinsci/jenkins/pull/1139,jenkinsci/jenkins,refactoring changes object intended responsibilities,"Violate requirement assumptions, domain, design assumptions",C9,Negative Effect On Functional/Non Functional Software Properties
+23755,1,https://github.com/INRIA/spoon/pull/3182,INRIA/spoon,refactoring changes behavior in case of exception,Introduce bugs/break APIs/breaks compatibility,C8,Negative Effect On Functional/Non Functional Software Properties
+23003,1,https://github.com/Esri/maps-app-android/pull/66,Esri/maps-app-android,refactoring breaks functionality,Introduce bugs/break APIs/breaks compatibility,C8,Negative Effect On Functional/Non Functional Software Properties
+23330,1,https://github.com/TeamAmaze/AmazeFileManager/pull/1134,TeamAmaze/AmazeFileManager,refactoring breaks functionality,Introduce bugs/break APIs/breaks compatibility,C8,Negative Effect On Functional/Non Functional Software Properties
+23568,1,https://github.com/molgenis/molgenis/pull/5343,molgenis/molgenis,refactoring breaks functionality,Introduce bugs/break APIs/breaks compatibility,C8,Negative Effect On Functional/Non Functional Software Properties
+24128,1,https://github.com/Azure/azure-iot-sdk-java/pull/602,Azure/azure-iot-sdk-java,refactoring breaks functionality,Introduce bugs/break APIs/breaks compatibility,C8,Negative Effect On Functional/Non Functional Software Properties
+24149,0,https://github.com/google/gson/pull/1428,google/gson,refactoring breaks functionality,Introduce bugs/break APIs/breaks compatibility,C8,Negative Effect On Functional/Non Functional Software Properties
+24302,0,https://github.com/confluentinc/ksql/pull/95,confluentinc/ksql,refactoring breaks functionality,Introduce bugs/break APIs/breaks compatibility,C8,Negative Effect On Functional/Non Functional Software Properties
+24329,0,https://github.com/Alluxio/alluxio/pull/899,Alluxio/alluxio,refactoring breaks functionality,Introduce bugs/break APIs/breaks compatibility,C8,Negative Effect On Functional/Non Functional Software Properties
+24333,0,https://github.com/Alluxio/alluxio/pull/594,Alluxio/alluxio,refactoring breaks functionality,Introduce bugs/break APIs/breaks compatibility,C8,Negative Effect On Functional/Non Functional Software Properties
+23664,0,https://github.com/eclipse/jetty.project/pull/3029,eclipse/jetty.project,refactoring breaks design constraints (e.g. assumption about relationship cardinality),"Violate requirement assumptions, domain, design assumptions",C9,Negative Effect On Functional/Non Functional Software Properties
+23342,0,https://github.com/MrCrayfish/MrCrayfishFurnitureMod/pull/247,MrCrayfish/MrCrayfishFurnitureMod,refactoring breaks compatibility (structure/naming of the preexisting config file),Introduce bugs/break APIs/breaks compatibility,C8,Negative Effect On Functional/Non Functional Software Properties
+23152,0,https://github.com/apache/servicecomb-java-chassis/pull/786,apache/servicecomb-java-chassis,refactoring breaks compatibility,Introduce bugs/break APIs/breaks compatibility,C8,Negative Effect On Functional/Non Functional Software Properties
+24274,0,https://github.com/DSpace/DSpace/pull/2353,DSpace/DSpace,refactoring breaks compatibility,Introduce bugs/break APIs/breaks compatibility,C8,Negative Effect On Functional/Non Functional Software Properties
+24342,0,https://github.com/jenkinsci/blueocean-plugin/pull/296,jenkinsci/blueocean-plugin,refactoring breaks compatibility,Introduce bugs/break APIs/breaks compatibility,C8,Negative Effect On Functional/Non Functional Software Properties
+24422,1,https://github.com/kohsuke/args4j/pull/80,kohsuke/args4j,refactoring breaks compatibility,Introduce bugs/break APIs/breaks compatibility,C8,Negative Effect On Functional/Non Functional Software Properties
+24448,1,https://github.com/codenameone/CodenameOne/pull/2430,codenameone/CodenameOne,refactoring breaks binary compatibility|too much change & refactoring for single pr|refactoring creates merge conflict,"Introduce bugs/break APIs/breaks compatibility, Are too large, Introduces merge conflicts","C8, P12, P5","Negative Effect On Functional/Non Functional Software Properties, Conflicts, PR size and content"
+23658,1,https://github.com/apache/activemq/pull/51,apache/activemq,refactoring breaks binary compatibility|refactoring creates merge conflict,"Introduce bugs/break APIs/breaks compatibility, Introduces merge conflicts","C8, P5","Negative Effect On Functional/Non Functional Software Properties, Conflicts"
+23768,0,https://github.com/INRIA/spoon/pull/2355,INRIA/spoon,refactoring breaks api|disagreement on final qualifier,Introduce bugs/break APIs/breaks compatibility,C8,Negative Effect On Functional/Non Functional Software Properties
+23603,1,https://github.com/cloudant/sync-android/pull/307,cloudant/sync-android,refactoring breaks API compatibility,Introduce bugs/break APIs/breaks compatibility,C8,Negative Effect On Functional/Non Functional Software Properties
+23148,1,https://github.com/libgdx/libgdx/pull/432,libgdx/libgdx,refactoring breaks api,Introduce bugs/break APIs/breaks compatibility,C8,Negative Effect On Functional/Non Functional Software Properties
+23982,0,https://github.com/jenkinsci/jenkins/pull/4077,jenkinsci/jenkins,refactoring breaks api,Introduce bugs/break APIs/breaks compatibility,C8,Negative Effect On Functional/Non Functional Software Properties
+24280,0,https://github.com/junit-team/junit4/pull/1384,junit-team/junit4,refactoring breaks api,Introduce bugs/break APIs/breaks compatibility,C8,Negative Effect On Functional/Non Functional Software Properties
+24344,1,https://github.com/square/okhttp/pull/1984,square/okhttp,refactoring breaks api,Introduce bugs/break APIs/breaks compatibility,C8,Negative Effect On Functional/Non Functional Software Properties
+24121,0,https://github.com/dnsjava/dnsjava/pull/2,dnsjava/dnsjava,Refactoring applied to the wrong repo,Are obsolete,P1,Change
+23026,0,https://github.com/bitcoinj/bitcoinj/pull/1023,bitcoinj/bitcoinj,refactoring adds complexity,Increase complexity,C12,Negative Effect On Functional/Non Functional Software Properties
+24560,0,https://github.com/Catrobat/Catroid/pull/3275,Catrobat/Catroid,refactored test do not use mocks,Contain choices of non-optimal design solutions,C17,Poor design and implementation decisions
+23151,1,https://github.com/apache/servicecomb-java-chassis/pull/876,apache/servicecomb-java-chassis,refactored interfaces violate some of the original program assumptions,"Violate requirement assumptions, domain, design assumptions",C9,Negative Effect On Functional/Non Functional Software Properties
+23748,1,https://github.com/eclipse-vertx/vert.x/pull/534,eclipse-vertx/vert.x,refactored code was ported,Are obsolete,P1,Change
+24482,0,https://github.com/apache/metron/pull/1235,apache/metron,refactored code touched also by other different changes,Conflict with another PR,P4,Conflicts
+23434,1,https://github.com/ballerina-platform/ballerina-lang/pull/8768,ballerina-platform/ballerina-lang,refactored a part of code that is not supported anymore,Are obsolete,P1,Change
+23450,0,https://github.com/jMonkeyEngine/jmonkeyengine/pull/123,jMonkeyEngine/jmonkeyengine,pull request should be changed in order to be less invasive,Are too large,P12,PR size and content
+23758,0,https://github.com/INRIA/spoon/pull/2684,INRIA/spoon,proposed refactoring not perceived as maintainability improvement|refactoring lowers understandability,Decrease readability,C11,Negative Effect On Functional/Non Functional Software Properties
+24225,1,https://github.com/knowm/XChange/pull/2524,knowm/XChange,proposed refactoring introduces interfaces for personal interest vs community interest,Are not in the community interest,C6,Risky or with Limited/Unclear benefits
+24043,1,https://github.com/cbeust/testng/pull/1858,cbeust/testng,problems with the design of the proposed refactoring,Contain choices of non-optimal design solutions,C17,Poor design and implementation decisions
+23315,1,https://github.com/SpongePowered/SpongeAPI/pull/1419,SpongePowered/SpongeAPI,"problematic interface, better refactoring proposed|lack of consistent comments","Need to be properly commented/documented, Lead to disagreement on the exposed interfaces, Are implemented by other PRs/developers","C26, C19, P2","Poor design and implementation decisions, Additional work needs to be performed, Change"
+23052,0,https://github.com/BroadleafCommerce/BroadleafCommerce/pull/1200,BroadleafCommerce/BroadleafCommerce,private variables and methods should be protected,Lead to disagreement on variable types and accessibility,C20,Poor design and implementation decisions
+24140,1,https://github.com/openmrs/openmrs-core/pull/781,openmrs/openmrs-core,pr looks invalid (probably even cannot compile),Lead to disagreement on overall benefit of refactoring,C4,Risky or with Limited/Unclear benefits
+23259,1,https://github.com/payara/Payara/pull/4036,payara/Payara,pr is not the best way for this task (design disagreement for the refactoring),Contain choices of non-optimal design solutions,C17,Poor design and implementation decisions
+24305,1,https://github.com/dbfit/dbfit/pull/163,dbfit/dbfit,pr is huge and not testable/understandable,Are too large,P12,PR size and content
+23367,1,https://github.com/hibernate/hibernate-search/pull/816,hibernate/hibernate-search,"pr gets too many comments to fix, closed for working on it and will open a new one after fixing ---- the great amount of comments is related to the design choices dealing with the refactoring",Contain choices of non-optimal design solutions,C17,Poor design and implementation decisions
+23739,0,https://github.com/Team-RTG/Realistic-Terrain-Generation/pull/541,Team-RTG/Realistic-Terrain-Generation,pr create conflicts,Introduces merge conflicts,P5,Conflicts
+23582,0,https://github.com/apache/kafka/pull/2015,apache/kafka,pr covered by another pr,Are implemented by other PRs/developers,P2,Change
+24126,1,https://github.com/pentaho/big-data-plugin/pull/53,pentaho/big-data-plugin,pr covered by another pr,Are implemented by other PRs/developers,P2,Change
+23732,0,https://github.com/real-logic/aeron/pull/641,real-logic/aeron,pr conflicts with planned code change,Conflict with planned code changes,C7,Risky or with Limited/Unclear benefits
+23776,0,https://github.com/INRIA/spoon/pull/2136,INRIA/spoon,PR breaks test,Introduce bugs/break APIs/breaks compatibility,C8,Negative Effect On Functional/Non Functional Software Properties
+23730,1,https://github.com/eclipse/microprofile-fault-tolerance/pull/412,eclipse/microprofile-fault-tolerance,PR author misunderstood the test approach,Lead to disagreement on overall benefit of refactoring,C4,Risky or with Limited/Unclear benefits
+24312,1,https://github.com/apache/incubator-iotdb/pull/109,apache/incubator-iotdb,pr and consequently refactoring is too complex,Increase complexity,C12,Negative Effect On Functional/Non Functional Software Properties
+23966,1,https://github.com/signalapp/Signal-Android/pull/1154,signalapp/Signal-Android,performance/memory optimization adds complexity,Increase complexity,C12,Negative Effect On Functional/Non Functional Software Properties
+23070,0,https://github.com/moquette-io/moquette/pull/267,moquette-io/moquette,outdated(The code became removed),Are obsolete,P1,Change
+23620,0,https://github.com/EngineHub/WorldEdit/pull/283,EngineHub/WorldEdit,outdated: the code has been rewritten completely in the meantime.,Are obsolete,P1,Change
+24527,1,https://github.com/rsksmart/rskj/pull/433,rsksmart/rskj,outdated dues to a different change that is coming,Are obsolete,P1,Change
+23186,1,https://github.com/quarkusio/quarkus/pull/4979,quarkusio/quarkus,outdated due to other different changes,Are obsolete,P1,Change
+23404,1,https://github.com/SpongePowered/SpongeCommon/pull/1605,SpongePowered/SpongeCommon,outdated due to other different changes,Are obsolete,P1,Change
+23747,1,https://github.com/eclipse-vertx/vert.x/pull/1110,eclipse-vertx/vert.x,outdated due to other different changes,Are obsolete,P1,Change
+23896,1,https://github.com/apache/flink/pull/99,apache/flink,outdated due to other different changes,Are obsolete,P1,Change
+24299,1,https://github.com/confluentinc/ksql/pull/3736,confluentinc/ksql,outdated due to other different changes,Are obsolete,P1,Change
+23778,1,https://github.com/INRIA/spoon/pull/2085,INRIA/spoon,Outdated due to a different parallel change aimed at fixing a bug,Are obsolete,P1,Change
+23364,1,https://github.com/bitrich-info/xchange-stream/pull/218,bitrich-info/xchange-stream,outdated and covered by another pr,Are implemented by other PRs/developers,P2,Change
+23231,1,https://github.com/SonarSource/sonarqube/pull/43,SonarSource/sonarqube,outdated (working on new component implementation),Are obsolete,P1,Change
+24400,1,https://github.com/twitter-archive/commons/pull/49,twitter-archive/commons,outdated (sent in another pr),Are implemented by other PRs/developers,P2,Change
+24290,1,https://github.com/spacewalkproject/spacewalk/pull/372,spacewalkproject/spacewalk,outdated (many changes to reposync since this PR was submitted),Are obsolete,P1,Change
+23128,1,https://github.com/openhab/openhab-addons/pull/3823,openhab/openhab-addons,outdated (due to inactivity) + needs lots of work to get in sync with current state,"Are inactive: (author/community), Do not fully address the code quality issues","P19, C25","Additional work needs to be performed, Planning"
+23047,0,https://github.com/broadinstitute/picard/pull/1035,broadinstitute/picard,outdated (another implementation of certain component exists),Are obsolete,P1,Change
+23823,1,https://github.com/vector-im/riot-android/pull/1584,vector-im/riot-android,obsolete refactoring,Are obsolete,P1,Change
+24034,0,https://github.com/eclipse/buildship/pull/18,eclipse/buildship,obsolete refactoring,Are obsolete,P1,Change
+23146,1,https://github.com/apache/cloudstack/pull/18,apache/cloudstack,not working properly due to another pr,Are obsolete,P1,Change
+23782,0,https://github.com/INRIA/spoon/pull/1603,INRIA/spoon,not backward compatible,Introduce bugs/break APIs/breaks compatibility,C8,Negative Effect On Functional/Non Functional Software Properties
+24059,0,https://github.com/wildfly/wildfly/pull/8781,wildfly/wildfly,"no value seen in the performed refactoring, mostly formatting changes",Lead to disagreement on overall benefit of refactoring,C4,Risky or with Limited/Unclear benefits
+23024,0,https://github.com/bitcoinj/bitcoinj/pull/1542,bitcoinj/bitcoinj,no need to reorder imports if there is no guideline for that,Lead to disagreement on overall benefit of refactoring,C4,Risky or with Limited/Unclear benefits
+23905,1,https://github.com/elastic/elasticsearch/pull/36673,elastic/elasticsearch,no further action from the contributor and overlap with another pr,Are implemented by other PRs/developers,P2,Change
+23939,0,https://github.com/elastic/elasticsearch/pull/10405,elastic/elasticsearch,new feature branch went a different direction,Conflict with planned code changes,C7,Risky or with Limited/Unclear benefits
+24200,0,https://github.com/react-native-community/react-native-video/pull/1653,react-native-community/react-native-video,needs to perform other changes (create a new class) before merging,Do not fully address the code quality issues,C25,Additional work needs to be performed
+24205,0,https://github.com/micronaut-projects/micronaut-core/pull/2658,micronaut-projects/micronaut-core,needs to also measure the performance difference,Need additional testing,C24,Additional work needs to be performed
+23188,0,https://github.com/fossasia/open-event-droidgen/pull/2393,fossasia/open-event-droidgen,needs further refactoring however it has low priority + the repository design pattern needs to be applied,"Do not fully address the code quality issues, Contain choices of non-optimal design solutions","C25, C17","Poor design and implementation decisions, Additional work needs to be performed"
+23153,0,https://github.com/apache/beam/pull/10704,apache/beam,needs further refactoring,Do not fully address the code quality issues,C25,Additional work needs to be performed
+24041,1,https://github.com/wso2/carbon-kernel/pull/51,wso2/carbon-kernel,needs further refactoring,Do not fully address the code quality issues,C25,Additional work needs to be performed
+23428,1,https://github.com/google/blockly-android/pull/452,google/blockly-android,need to introduce interfaces; need for a better separation of concerns,Contain poor responsibility distribution among classes or modules,C15,Poor design and implementation decisions
+24455,0,https://github.com/MovingBlocks/DestinationSol/pull/236,MovingBlocks/DestinationSol,"naming, exception handling, unneeded code elements (annotations)","Contain problematic exception handling, Do not adhere to coding conventions","C21, C13","Negative Effect On Functional/Non Functional Software Properties, Poor design and implementation decisions"
+24558,1,https://github.com/geotools/geotools/pull/289,geotools/geotools,"mix of different things, arcsde changes, and shapefile changes of different nature",Are not cohesive - tangled change,P11,PR size and content
+23693,0,https://github.com/UniversalMediaServer/UniversalMediaServer/pull/88,UniversalMediaServer/UniversalMediaServer,minor readability improvement vs risk of introducing bugs,Bring potential risks which outweigh their value,C2,Risky or with Limited/Unclear benefits
+24379,0,https://github.com/palantir/atlasdb/pull/1080,palantir/atlasdb,merged in a different pr with a similar goal,Are implemented by other PRs/developers,P2,Change
+23121,1,https://github.com/Netflix/conductor/pull/696,Netflix/conductor,merge conflicts | too much change & refactoring for single pr,"Are too large, Introduces merge conflicts","P12, P5","Conflicts, PR size and content"
+23766,0,https://github.com/INRIA/spoon/pull/2452,INRIA/spoon,lowers understandability (old code is more understandable),Decrease readability,C11,Negative Effect On Functional/Non Functional Software Properties
+23256,0,https://github.com/cgeo/cgeo/pull/266,cgeo/cgeo,logging refactoring doesn't account for logging levels,"Violate requirement assumptions, domain, design assumptions",C9,Negative Effect On Functional/Non Functional Software Properties
+24191,1,https://github.com/apache/calcite/pull/151,apache/calcite,lack of interest in the refactoring change,Lead to disagreement on overall benefit of refactoring,C4,Risky or with Limited/Unclear benefits
+23979,1,https://github.com/jenkinsci/jenkins/pull/4646,jenkinsci/jenkins,lack of followup from the submitter,Are inactive: (author/community),P19,Planning
+23978,0,https://github.com/palantir/gradle-baseline/pull/1316,palantir/gradle-baseline,it would block baseline upgrades,Conflict with another PR,P4,Conflicts
+24511,0,https://github.com/TEAMMATES/teammates/pull/6452,TEAMMATES/teammates,issues occur with the fork after pushing,Introduces merge conflicts,P5,Conflicts
+23588,0,https://github.com/apache/kafka/pull/6498,apache/kafka,issue has been addressed by another developer,Are implemented by other PRs/developers,P2,Change
+23695,0,https://github.com/yahoo/elide/pull/7,yahoo/elide,introduces also functional changes that violate the current design,"Violate requirement assumptions, domain, design assumptions",C9,Negative Effect On Functional/Non Functional Software Properties
+24223,0,https://github.com/nextcloud/android/pull/514,nextcloud/android,inactivity after reviewer requested code changes,Are inactive: (author/community),P19,Planning
+23102,0,https://github.com/getodk/collect/pull/1882,getodk/collect,inactivity after reviewer requested code changes,Are inactive: (author/community),P19,Planning
+23469,0,https://github.com/Activiti/Activiti/pull/1463,Activiti/Activiti,inactivity after reviewer requested code changes,Are inactive: (author/community),P19,Planning
+23771,0,https://github.com/INRIA/spoon/pull/2242,INRIA/spoon,inactivity after reviewer requested code changes,Are inactive: (author/community),P19,Planning
+24515,0,https://github.com/TEAMMATES/teammates/pull/5790,TEAMMATES/teammates,inactivity after reviewer requested code changes,Are inactive: (author/community),P19,Planning
+23271,0,https://github.com/vert-x3/vertx-web/pull/292,vert-x3/vertx-web,inactivity after reviewer requested code changes,Are inactive: (author/community),P19,Planning
+24499,1,https://github.com/TEAMMATES/teammates/pull/8493,TEAMMATES/teammates,Inactivity + removing long method without looking at cyclomatic complexity,Are inactive: (author/community),P19,Planning
+23077,0,https://github.com/RestComm/media-core/pull/425,RestComm/media-core,inactivity,Are inactive: (author/community),P19,Planning
+23245,0,https://github.com/mozilla-mobile/focus-android/pull/1758,mozilla-mobile/focus-android,Inactivity,Are inactive: (author/community),P19,Planning
+23525,0,https://github.com/sakaiproject/sakai/pull/2574,sakaiproject/sakai,Inactivity,Are inactive: (author/community),P19,Planning
+23626,0,https://github.com/apereo/cas/pull/3754,apereo/cas,inactivity,Are inactive: (author/community),P19,Planning
+24498,0,https://github.com/TEAMMATES/teammates/pull/9143,TEAMMATES/teammates,inactivity,Are inactive: (author/community),P19,Planning
+24508,1,https://github.com/TEAMMATES/teammates/pull/6574,TEAMMATES/teammates,Inactivity,Are inactive: (author/community),P19,Planning
+24134,0,https://github.com/EssentialsX/Essentials/pull/211,EssentialsX/Essentials,goals of the refactoring are unclear|refactoring does not provide any value,Lead to disagreement on overall benefit of refactoring,C4,Risky or with Limited/Unclear benefits
+23913,0,https://github.com/elastic/elasticsearch/pull/26922,elastic/elasticsearch,"goals of the refactoring are unclear|no improvement, only style changes",Lead to disagreement on overall benefit of refactoring,C4,Risky or with Limited/Unclear benefits
+23901,0,https://github.com/elastic/elasticsearch/pull/41180,elastic/elasticsearch,fails CI test,Lead to build failure,P21,Change
+23734,0,https://github.com/spring-cloud/spring-cloud-stream/pull/155,spring-cloud/spring-cloud-stream,extracted class should be moved into an abstract factory pattern,Contain inappropriate use of design patterns,C16,Poor design and implementation decisions
+23307,1,https://github.com/JetBrains/intellij-plugins/pull/671,JetBrains/intellij-plugins,efactoring solution is not optimal and similar change addressed in other PR,Contain choices of non-optimal design solutions,C17,Poor design and implementation decisions
+23721,0,https://github.com/spotify/helios/pull/1237,spotify/helios,efactoring fails tests|PR submitted by bot,Lead to build failure,P21,Change
+24370,0,https://github.com/chat-sdk/chat-sdk-android/pull/340,chat-sdk/chat-sdk-android,duplicated pr,Are implemented by other PRs/developers,P2,Change
+24473,1,https://github.com/MovingBlocks/Terasology/pull/1129,MovingBlocks/Terasology,duplicated pr,Are implemented by other PRs/developers,P2,Change
+23889,0,https://github.com/apache/flink/pull/2766,apache/flink,does not generalize well to the whole system but only on a specific sub-component|refactoring solution is not optimal,Contain choices of non-optimal design solutions|Do not generalize to the whole system,"C17, C23","Poor design and implementation decisions, Poor design and implementation decisions"
+23779,0,https://github.com/INRIA/spoon/pull/1947,INRIA/spoon,disagreement on the use of checked exceptions,Contain problematic exception handling,C21,Poor design and implementation decisions
+23655,0,https://github.com/typetools/checker-framework/pull/836,typetools/checker-framework,disagreement about the immutability of fields,Lead to disagreement on variable types and accessibility,C20,Poor design and implementation decisions
+23564,0,https://github.com/molgenis/molgenis/pull/7070,molgenis/molgenis,different pr with same goal opened,Are implemented by other PRs/developers,P2,Change
+24103,1,https://github.com/apache/pulsar/pull/1380,apache/pulsar,"design disagreement:class scope, field naming, useless get/set handlers, etc.",Contain poor responsibility distribution among classes or modules,C15,Poor design and implementation decisions
+24359,1,https://github.com/cdapio/cdap/pull/1044,cdapio/cdap,design disagreement: wrongly memory usage,Degrade performance/memory usage,C10,Negative Effect On Functional/Non Functional Software Properties
+24142,0,https://github.com/grpc/grpc-java/pull/1207,grpc/grpc-java,design disagreement: which class should contain a method/responsibility,Contain poor responsibility distribution among classes or modules,C15,Poor design and implementation decisions
+24226,0,https://github.com/knowm/XChange/pull/2523,knowm/XChange,design disagreement: whether to simplify certain abstractions to interfaces,Lead to disagreement on the exposed interfaces,C19,Poor design and implementation decisions
+23777,0,https://github.com/INRIA/spoon/pull/2107,INRIA/spoon,design disagreement: whether to remove tostring() methods,Lead to disagreement on the exposed interfaces,C19,Poor design and implementation decisions
+23282,1,https://github.com/springfox/springfox/pull/724,springfox/springfox,design disagreement: whether to remove certain formats|refactoring does not provide any value,Lead to disagreement on overall benefit of refactoring,C4,Risky or with Limited/Unclear benefits
+23775,0,https://github.com/INRIA/spoon/pull/2190,INRIA/spoon,design disagreement: whether to move resource files,Contain poor responsibility distribution among classes or modules,C15,Poor design and implementation decisions
+24046,1,https://github.com/apache/iceberg/pull/272,apache/iceberg,design disagreement: whether to change type|refactoring negatively impacts performance,"Lead to disagreement on the exposed interfaces, Degrade performance/memory usage","C19, C10","Negative Effect On Functional/Non Functional Software Properties, Poor design and implementation decisions"
+24461,0,https://github.com/jacoco/jacoco/pull/250,jacoco/jacoco,design disagreement: whether to change a public api,Lead to disagreement on the exposed interfaces,C19,Poor design and implementation decisions
+23123,1,https://github.com/gaul/s3proxy/pull/233,gaul/s3proxy,design disagreement: using objects or static methods,Lead to disagreement on the exposed interfaces,C19,Poor design and implementation decisions
+23828,0,https://github.com/inception-project/inception/pull/1449,inception-project/inception,design disagreement: using objects or static methods,Lead to disagreement on the exposed interfaces,C19,Poor design and implementation decisions
+24372,1,https://github.com/palantir/atlasdb/pull/4454,palantir/atlasdb,design disagreement: use of memoization,Lead to disagreement on overall benefit of refactoring,C4,Risky or with Limited/Unclear benefits
+24278,0,https://github.com/junit-team/junit4/pull/1099,junit-team/junit4,design disagreement: unnecessary usage of boxed values,Lead to disagreement on variable types and accessibility,C20,Poor design and implementation decisions
+24270,1,https://github.com/aionnetwork/aion/pull/129,aionnetwork/aion,design disagreement: thread priority,Degrade performance/memory usage,C10,Negative Effect On Functional/Non Functional Software Properties
+24232,1,https://github.com/xwiki/xwiki-platform/pull/846,xwiki/xwiki-platform,design disagreement: how to organize tests into classes,Contain poor responsibility distribution among classes or modules,C15,Poor design and implementation decisions
+24537,1,https://github.com/dropwizard/dropwizard/pull/372,dropwizard/dropwizard,design disagreement: external library to adopt,Lead to disagreement on third-party components adoption,C22,Poor design and implementation decisions
+23940,1,https://github.com/elastic/elasticsearch/pull/8654,elastic/elasticsearch,design disagreement: exposure of internal classes to client,Lead to disagreement on the exposed interfaces,C19,Poor design and implementation decisions
+23761,0,https://github.com/INRIA/spoon/pull/2513,INRIA/spoon,design disagreement: decline to remove variables with same values to improve readability,"Do not adhere to coding conventions, Decrease readability","C13, C11","Negative Effect On Functional/Non Functional Software Properties, Negative Effect On Functional/Non Functional Software Properties"
+23704,1,https://github.com/runelite/runelite/pull/1201,runelite/runelite,design diagreement: blacklist approach vs. white list approach,Lead to disagreement on the exposed interfaces,C19,Poor design and implementation decisions
+24199,1,https://github.com/FasterXML/jackson-databind/pull/1671,FasterXML/jackson-databind,decided to go bit different route,Are obsolete,P1,Change
+23985,1,https://github.com/jenkinsci/jenkins/pull/3438,jenkinsci/jenkins,contributor does not have time to address suggested changes.,Do not implement recommended changes,P7,Contributor
+23154,1,https://github.com/apache/beam/pull/10509,apache/beam,contributor does not have time to address suggested changes (priority needs leads to PR scope narrowed down),Do not implement recommended changes,P7,Contributor
+24049,1,https://github.com/SpongePowered/SpongeForge/pull/538,SpongePowered/SpongeForge,Components being refactored have some issues,Lead to disagreement on overall benefit of refactoring,C4,Risky or with Limited/Unclear benefits
+24351,1,https://github.com/GoogleContainerTools/jib/pull/1677,GoogleContainerTools/jib,compilation and test fail,Lead to build failure,P21,Change
+24414,0,https://github.com/spring-projects/spring-framework/pull/1493,spring-projects/spring-framework,code style refinements via pr not accepted,Lead to disagreement on overall benefit of refactoring,C4,Risky or with Limited/Unclear benefits
+24509,1,https://github.com/TEAMMATES/teammates/pull/6499,TEAMMATES/teammates,Closing due to inactivity,Are inactive: (author/community),P19,Planning
+24361,1,https://github.com/cdapio/cdap/pull/675,cdapio/cdap,classes supposed to be singleton are not,Contain inappropriate use of design patterns,C16,Poor design and implementation decisions
+23063,0,https://github.com/apache/eagle/pull/403,apache/eagle,can be further refactored,Contain choices of non-optimal design solutions,C17,Poor design and implementation decisions
+23806,1,https://github.com/hazelcast/hazelcast/pull/8995,hazelcast/hazelcast,branch got corrupted while rebasing,Bring issues with branch rebase,P3,Conflicts
+23814,0,https://github.com/AdoptOpenJDK/jitwatch/pull/286,AdoptOpenJDK/jitwatch,automatic refactorings are not accepted,Automatically-generated not considered valuable,C1,Risky or with Limited/Unclear benefits
+24052,0,https://github.com/pf4j/pf4j/pull/225,pf4j/pf4j,automated refactoring - no interest in the proposed extracted methods|refactoring does not provide any value,Automatically-generated not considered valuable,C1,Risky or with Limited/Unclear benefits
+23915,0,https://github.com/elastic/elasticsearch/pull/19168,elastic/elasticsearch,automated interface migration: no agreement on the introduction of default methods,Lead to disagreement on the exposed interfaces,C19,Poor design and implementation decisions
+23399,0,https://github.com/spring-projects/spring-security/pull/4601,spring-projects/spring-security,addressed in other PR,Are implemented by other PRs/developers,P2,Change
+23444,1,https://github.com/graphhopper/graphhopper/pull/596,graphhopper/graphhopper,addressed in other PR,Are implemented by other PRs/developers,P2,Change
+24151,1,https://github.com/ninjaframework/ninja/pull/300,ninjaframework/ninja,addressed in other PR,Are implemented by other PRs/developers,P2,Change
+24541,1,https://github.com/netty/netty/pull/4391,netty/netty,addressed in other PR,Are implemented by other PRs/developers,P2,Change
+23295,1,https://github.com/iNPUTmice/Conversations/pull/2959,iNPUTmice/Conversations,actual change seems to introduce a bug,Introduce bugs/break APIs/breaks compatibility,C8,Negative Effect On Functional/Non Functional Software Properties
+23570,1,https://github.com/zaproxy/zaproxy/pull/5629,zaproxy/zaproxy,accidental PR (don't want merge the branch into develop),Are inactive: (author/community),P18,Planning
+23224,1,https://github.com/SonarSource/sonarqube/pull/1578,SonarSource/sonarqube,self-close with unclear motivation after reviewer pointed some issues,unclear,,
+24172,1,https://github.com/infinispan/infinispan/pull/5137,infinispan/infinispan,self-close with unclear motivation after passing ci,unclear,,
+23258,1,https://github.com/jitsi/jitsi-videobridge/pull/316,jitsi/jitsi-videobridge,self-close with unclear motivation after fixing pointed issues by reviewer,unclear,,
+23299,1,https://github.com/VoltDB/voltdb/pull/4267,VoltDB/voltdb,self-close with unclear motivation after fixing pointed issues by reviewer,unclear,,
+23302,1,https://github.com/VoltDB/voltdb/pull/1700,VoltDB/voltdb,self-close with unclear motivation after fixing pointed issues by reviewer,unclear,,
+23741,1,https://github.com/dhis2/dhis2-core/pull/4647,dhis2/dhis2-core,self-close with unclear motivation after fixing pointed issues by reviewer,unclear,,
+24144,1,https://github.com/CODAIT/stocator/pull/129,CODAIT/stocator,self-close with unclear motivation after fixing pointed issues by reviewer,unclear,,
+24570,1,https://github.com/microsoft/azure-maven-plugins/pull/950,microsoft/azure-maven-plugins,self-close with unclear motivation after fixing pointed issues by reviewer,unclear,,
+23288,1,https://github.com/Azure/azure-sdk-for-java/pull/10481,Azure/azure-sdk-for-java,self-close with unclear motivation after fixing pointed issues by reviewer,unclear,,
+24108,1,https://github.com/Netflix/eureka/pull/656,Netflix/eureka,self-close with unclear motivation after fixing pointed issues and passing ci tests,unclear,,
+24209,1,https://github.com/MinecraftForge/MinecraftForge/pull/5280,MinecraftForge/MinecraftForge,self-close with unclear motivation after fixing pointed issues,unclear,,
+24311,1,https://github.com/apache/incubator-iotdb/pull/157,apache/incubator-iotdb,self-close with unclear motivation after fixing pointed issues,unclear,,
+24442,1,https://github.com/apache/incubator-gobblin/pull/1134,apache/incubator-gobblin,self-close with unclear motivation after fixing pointed issues,unclear,,
+24534,1,https://github.com/codice/ddf/pull/1222,codice/ddf,self-close with unclear motivation after fixing issues,unclear,,
+23505,1,https://github.com/prestodb/presto/pull/1500,prestodb/presto,self-close with unclear motivation after code review,unclear,,
+23447,0,https://github.com/jMonkeyEngine/jmonkeyengine/pull/823,jMonkeyEngine/jmonkeyengine,self-close with unclear motivation (Looking at the other PRs it seems that the rejection is related to the merge of a different PRs aimed at addressing the same problem),unclear,,
+23111,0,https://github.com/oltpbenchmark/oltpbench/pull/169,oltpbenchmark/oltpbench,self-close with unclear motivation,unclear,,
+23223,0,https://github.com/SonarSource/sonarqube/pull/1694,SonarSource/sonarqube,self-close with unclear motivation,unclear,,
+23728,0,https://github.com/apache/shardingsphere/pull/1068,apache/shardingsphere,self-close with unclear motivation,unclear,,
+24300,0,https://github.com/confluentinc/ksql/pull/388,confluentinc/ksql,self-close with unclear motivation,unclear,,
+24309,0,https://github.com/apache/incubator-iotdb/pull/598,apache/incubator-iotdb,self-close with unclear motivation,unclear,,
+23413,1,https://github.com/neo4j/neo4j/pull/9265,neo4j/neo4j,self-close with no clear motivations after reviewer requests changes,unclear,,
+23100,1,https://github.com/yahoo/fili/pull/586,yahoo/fili,self-close with no clear motivations (most style issues have been solved),unclear,,
+24443,1,https://github.com/apache/incubator-gobblin/pull/1129,apache/incubator-gobblin,self-close with claim messing PR up,unclear,,
+23681,0,https://github.com/AgriCraft/AgriCraft/pull/571,AgriCraft/AgriCraft,self-close to rebranch,unclear,,
+23414,0,https://github.com/neo4j/neo4j/pull/8016,neo4j/neo4j,self-close to re-open with new branch/release,unclear,,
+23138,1,https://github.com/rstudio/rstudio/pull/754,rstudio/rstudio,self-close since refactoring creates merge conflict (actually there are not reviews),unclear,,
+23119,1,https://github.com/crate/crate/pull/3815,crate/crate,unclear (self-close after fixing a few issues),unclear,,
+23473,1,https://github.com/teamed/qulice/pull/756,teamed/qulice,unclear,unclear,,
+23565,1,https://github.com/molgenis/molgenis/pull/6981,molgenis/molgenis,unclear,unclear,,
+23751,1,https://github.com/dotCMS/core/pull/15289,dotCMS/core,unclear,unclear,,
+24263,1,https://github.com/testcontainers/testcontainers-java/pull/156,testcontainers/testcontainers-java,unclear,unclear,,
+24334,1,https://github.com/Alluxio/alluxio/pull/511,Alluxio/alluxio,unclear,unclear,,
+24356,1,https://github.com/cdapio/cdap/pull/3408,cdapio/cdap,unclear,unclear,,
+24451,1,https://github.com/farkam135/GoIV/pull/168,farkam135/GoIV,unclear,unclear,,
+24196,1,https://github.com/apache/tika/pull/39,apache/tika,self close after receiving positive review,unclear,,
+23050,1,https://github.com/openmrs/openmrs-contrib-android-client/pull/170,openmrs/openmrs-contrib-android-client,false positive,false positive,,
+23642,,https://github.com/SeleniumHQ/selenium/pull/325,SeleniumHQ/selenium,false positive (Source structure organization),false positive,,
+24166,,https://github.com/gsantner/markor/pull/528,gsantner/markor,false positive (readme refactoring),false positive,,
+23832,,https://github.com/Jasig/uPortal/pull/1051,Jasig/uPortal,false positive (not java),false positive,,
+24480,,https://github.com/apache/metron/pull/1430,apache/metron,false positive (not java),false positive,,
+24319,,https://github.com/chocoteam/choco-solver/pull/24,chocoteam/choco-solver,false positive (non-english),false positive,,
+23120,,https://github.com/twitter/ambrose/pull/18,twitter/ambrose,false positive (javascript),false positive,,
+23818,,https://github.com/mesosphere/dcos-commons/pull/1204,mesosphere/dcos-commons,false positive (CI files),false positive,,
+22994,,https://github.com/apache/logging-log4j2/pull/45,apache/logging-log4j2,false positive,false positive,,
+23048,,https://github.com/openmrs/openmrs-contrib-android-client/pull/725,openmrs/openmrs-contrib-android-client,false positive,false positive,,
+23054,,https://github.com/apache/eagle/pull/869,apache/eagle,false positive,false positive,,
+23062,1,https://github.com/apache/eagle/pull/416,apache/eagle,false positive,false positive,,
+23065,,https://github.com/apache/eagle/pull/374,apache/eagle,false positive,false positive,,
+23076,,https://github.com/aws/aws-sdk-java-v2/pull/490,aws/aws-sdk-java-v2,false positive,false positive,,
+23081,,https://github.com/spring-projects/spring-integration/pull/2112,spring-projects/spring-integration,false positive,false positive,,
+23091,,https://github.com/spring-projects/spring-integration/pull/189,spring-projects/spring-integration,false positive,false positive,,
+23092,,https://github.com/spring-projects/spring-integration/pull/163,spring-projects/spring-integration,false positive,false positive,,
+23104,,https://github.com/getodk/collect/pull/777,getodk/collect,false positive,false positive,,
+23109,,https://github.com/googleapis/gax-java/pull/336,googleapis/gax-java,false positive,false positive,,
+23122,,https://github.com/AppiumTestDistribution/AppiumTestDistribution/pull/175,AppiumTestDistribution/AppiumTestDistribution,false positive,false positive,,
+23124,,https://github.com/gaul/s3proxy/pull/165,gaul/s3proxy,false positive,false positive,,
+23139,1,https://github.com/apache/cloudstack/pull/2447,apache/cloudstack,false positive,false positive,,
+23157,,https://github.com/apache/beam/pull/3986,apache/beam,false positive,false positive,,
+23166,,https://github.com/apache/beam/pull/2812,apache/beam,false positive,false positive,,
+23174,,https://github.com/apache/beam/pull/1309,apache/beam,false positive,false positive,,
+23176,,https://github.com/apache/beam/pull/1025,apache/beam,false positive,false positive,,
+23177,,https://github.com/apache/beam/pull/1019,apache/beam,false positive,false positive,,
+23179,,https://github.com/apache/beam/pull/285,apache/beam,false positive,false positive,,
+23195,,https://github.com/TheAlgorithms/Java/pull/645,TheAlgorithms/Java,false positive,false positive,,
+23213,1,https://github.com/triplea-game/triplea/pull/28,triplea-game/triplea,false positive,false positive,,
+23220,,https://github.com/sialcasa/mvvmFX/pull/333,sialcasa/mvvmFX,false positive,false positive,,
+23222,,https://github.com/SonarSource/sonarqube/pull/2660,SonarSource/sonarqube,false positive,false positive,,
+23234,,https://github.com/apache/netbeans/pull/361,apache/netbeans,false positive,false positive,,
+23239,,https://github.com/opennars/opennars/pull/209,opennars/opennars,false positive,false positive,,
+23250,,https://github.com/feast-dev/feast/pull/599,feast-dev/feast,false positive,false positive,,
+23261,1,https://github.com/xetorthio/jedis/pull/767,xetorthio/jedis,false positive,false positive,,
+23263,,https://github.com/linkedin/pygradle/pull/119,linkedin/pygradle,false positive,false positive,,
+23311,,https://github.com/SpongePowered/SpongeAPI/pull/1871,SpongePowered/SpongeAPI,false positive,false positive,,
+23312,,https://github.com/SpongePowered/SpongeAPI/pull/1843,SpongePowered/SpongeAPI,false positive,false positive,,
+23320,,https://github.com/SpongePowered/SpongeAPI/pull/561,SpongePowered/SpongeAPI,false positive,false positive,,
+23346,,https://github.com/selenide/selenide/pull/723,selenide/selenide,false positive,false positive,,
+23351,,https://github.com/apache/geode/pull/2257,apache/geode,false positive,false positive,,
+23353,,https://github.com/apache/geode/pull/1040,apache/geode,false positive,false positive,,
+23356,,https://github.com/apache/geode/pull/693,apache/geode,false positive,false positive,,
+23357,,https://github.com/apache/geode/pull/683,apache/geode,false positive,false positive,,
+23362,,https://github.com/randoop/randoop/pull/65,randoop/randoop,false positive,false positive,,
+23383,1,https://github.com/locationtech/jts/pull/17,locationtech/jts,false positive,false positive,,
+23393,1,https://github.com/square/javapoet/pull/623,square/javapoet,false positive,false positive,,
+23398,1,https://github.com/saros-project/saros/pull/210,saros-project/saros,false positive,false positive,,
+23400,,https://github.com/spring-projects/spring-security/pull/20,spring-projects/spring-security,false positive,false positive,,
+23401,,https://github.com/SpongePowered/SpongeCommon/pull/2393,SpongePowered/SpongeCommon,false positive,false positive,,
+23445,1,https://github.com/graphhopper/graphhopper/pull/365,graphhopper/graphhopper,false positive,false positive,,
+23454,,https://github.com/improbable-research/keanu/pull/466,improbable-research/keanu,false positive,false positive,,
+23457,,https://github.com/stanfordnlp/CoreNLP/pull/337,stanfordnlp/CoreNLP,false positive,false positive,,
+23528,,https://github.com/apache/bookkeeper/pull/1309,apache/bookkeeper,false positive,false positive,,
+23533,1,https://github.com/apache/bookkeeper/pull/875,apache/bookkeeper,false positive,false positive,,
+23539,,https://github.com/bazelbuild/bazel/pull/7839,bazelbuild/bazel,false positive,false positive,,
+23542,,https://github.com/bazelbuild/bazel/pull/10380,bazelbuild/bazel,false positive,false positive,,
+23543,,https://github.com/bazelbuild/bazel/pull/9022,bazelbuild/bazel,false positive,false positive,,
+23574,,https://github.com/apache/kafka/pull/3703,apache/kafka,false positive,false positive,,
+23576,,https://github.com/apache/kafka/pull/3592,apache/kafka,false positive,false positive,,
+23589,,https://github.com/apache/kafka/pull/5780,apache/kafka,false positive,false positive,,
+23608,,https://github.com/codinguser/gnucash-android/pull/531,codinguser/gnucash-android,false positive,false positive,,
+23610,,https://github.com/stefan-niedermann/nextcloud-notes/pull/417,stefan-niedermann/nextcloud-notes,false positive,false positive,,
+23619,,https://github.com/appium/java-client/pull/756,appium/java-client,false positive,false positive,,
+23627,,https://github.com/apereo/cas/pull/79,apereo/cas,false positive,false positive,,
+23645,,https://github.com/mapbox/mapbox-navigation-android/pull/2303,mapbox/mapbox-navigation-android,false positive,false positive,,
+23656,,https://github.com/jitsi/libjitsi/pull/331,jitsi/libjitsi,false positive,false positive,,
+23661,,https://github.com/yegor256/takes/pull/539,yegor256/takes,false positive,false positive,,
+23662,1,https://github.com/yegor256/takes/pull/200,yegor256/takes,false positive,false positive,,
+23684,,https://github.com/EnMasseProject/enmasse/pull/3080,EnMasseProject/enmasse,false positive,false positive,,
+23694,1,https://github.com/yahoo/elide/pull/1139,yahoo/elide,false positive,false positive,,
+23707,,https://github.com/apache/samza/pull/934,apache/samza,false positive,false positive,,
+23709,,https://github.com/apache/samza/pull/880,apache/samza,false positive,false positive,,
+23713,,https://github.com/apache/samza/pull/555,apache/samza,false positive,false positive,,
+23724,,https://github.com/spotify/helios/pull/922,spotify/helios,false positive,false positive,,
+23738,1,https://github.com/Team-RTG/Realistic-Terrain-Generation/pull/819,Team-RTG/Realistic-Terrain-Generation,false positive,false positive,,
+23762,,https://github.com/INRIA/spoon/pull/2512,INRIA/spoon,false positive,false positive,,
+23767,,https://github.com/INRIA/spoon/pull/2377,INRIA/spoon,false positive,false positive,,
+23780,,https://github.com/INRIA/spoon/pull/1852,INRIA/spoon,false positive,false positive,,
+23791,,https://github.com/apache/nifi/pull/3542,apache/nifi,false positive,false positive,,
+23807,,https://github.com/hazelcast/hazelcast/pull/1961,hazelcast/hazelcast,false positive,false positive,,
+23809,1,https://github.com/SonarSource/SonarJS/pull/6,SonarSource/SonarJS,false positive,false positive,,
+23825,,https://github.com/hibernate/hibernate-orm/pull/1305,hibernate/hibernate-orm,false positive,false positive,,
+23827,,https://github.com/inception-project/inception/pull/1470,inception-project/inception,false positive,false positive,,
+23842,,https://github.com/apache/flink/pull/12268,apache/flink,false positive,false positive,,
+23844,,https://github.com/apache/flink/pull/11785,apache/flink,false positive,false positive,,
+23862,,https://github.com/apache/flink/pull/1978,apache/flink,false positive,false positive,,
+23876,,https://github.com/apache/flink/pull/10038,apache/flink,false positive,false positive,,
+23892,,https://github.com/apache/flink/pull/2434,apache/flink,false positive,false positive,,
+23893,,https://github.com/apache/flink/pull/1887,apache/flink,false positive,false positive,,
+23910,,https://github.com/elastic/elasticsearch/pull/30320,elastic/elasticsearch,false positive,false positive,,
+23933,,https://github.com/elastic/elasticsearch/pull/10749,elastic/elasticsearch,false positive,false positive,,
+23946,,https://github.com/elastic/elasticsearch/pull/7214,elastic/elasticsearch,false positive,false positive,,
+23949,,https://github.com/SpongePowered/SpongeDocs/pull/381,SpongePowered/SpongeDocs,false positive,false positive,,
+23973,,https://github.com/wso2/product-is/pull/1202,wso2/product-is,false positive,false positive,,
+23977,,https://github.com/apache/incubator-pinot/pull/4592,apache/incubator-pinot,false positive,false positive,,
+24004,,https://github.com/apache/zeppelin/pull/1007,apache/zeppelin,false positive,false positive,,
+24022,,https://github.com/apache/storm/pull/3223,apache/storm,false positive,false positive,,
+24040,,https://github.com/wso2/carbon-kernel/pull/136,wso2/carbon-kernel,false positive,false positive,,
+24051,,https://github.com/SpongePowered/SpongeForge/pull/144,SpongePowered/SpongeForge,false positive,false positive,,
+24101,,https://github.com/apache/reef/pull/48,apache/reef,false positive,false positive,,
+24105,,https://github.com/apache/plc4x/pull/14,apache/plc4x,false positive,false positive,,
+24152,,https://github.com/apache/systemml/pull/900,apache/systemml,false positive,false positive,,
+24156,,https://github.com/apache/systemml/pull/664,apache/systemml,false positive,false positive,,
+24158,,https://github.com/apache/systemml/pull/116,apache/systemml,false positive,false positive,,
+24179,,https://github.com/windup/windup/pull/154,windup/windup,false positive,false positive,,
+24181,,https://github.com/naver/ngrinder/pull/458,naver/ngrinder,false positive,false positive,,
+24188,,https://github.com/ippontech/tatami/pull/449,ippontech/tatami,false positive,false positive,,
+24190,,https://github.com/apache/calcite/pull/834,apache/calcite,false positive,false positive,,
+24192,,https://github.com/haifengl/smile/pull/409,haifengl/smile,false positive,false positive,,
+24215,,https://github.com/fcrepo4/fcrepo4/pull/470,fcrepo4/fcrepo4,false positive,false positive,,
+24217,1,https://github.com/fcrepo4/fcrepo4/pull/354,fcrepo4/fcrepo4,false positive,false positive,,
+24219,,https://github.com/fcrepo4/fcrepo4/pull/338,fcrepo4/fcrepo4,false positive,false positive,,
+24234,,https://github.com/parse-community/Parse-SDK-Android/pull/418,parse-community/Parse-SDK-Android,false positive,false positive,,
+24248,,https://github.com/perwendel/spark/pull/371,perwendel/spark,false positive,false positive,,
+24252,,https://github.com/apache/drill/pull/1928,apache/drill,false positive,false positive,,
+24253,,https://github.com/apache/drill/pull/1633,apache/drill,false positive,false positive,,
+24256,,https://github.com/apache/drill/pull/1238,apache/drill,false positive,false positive,,
+24264,,https://github.com/eclipse/che/pull/5765,eclipse/che,false positive,false positive,,
+24267,,https://github.com/apache/flume/pull/164,apache/flume,false positive,false positive,,
+24281,,https://github.com/rsocket/rsocket-java/pull/281,rsocket/rsocket-java,false positive,false positive,,
+24295,1,https://github.com/apache/jmeter/pull/482,apache/jmeter,false positive,false positive,,
+24301,,https://github.com/confluentinc/ksql/pull/349,confluentinc/ksql,false positive,false positive,,
+24310,1,https://github.com/apache/incubator-iotdb/pull/577,apache/incubator-iotdb,false positive,false positive,,
+24328,,https://github.com/Alluxio/alluxio/pull/1187,Alluxio/alluxio,false positive,false positive,,
+24335,,https://github.com/Alluxio/alluxio/pull/461,Alluxio/alluxio,false positive,false positive,,
+24336,,https://github.com/Alluxio/alluxio/pull/427,Alluxio/alluxio,false positive,false positive,,
+24337,,https://github.com/Alluxio/alluxio/pull/298,Alluxio/alluxio,false positive,false positive,,
+24338,,https://github.com/Alluxio/alluxio/pull/277,Alluxio/alluxio,false positive,false positive,,
+24341,,https://github.com/jenkinsci/blueocean-plugin/pull/440,jenkinsci/blueocean-plugin,false positive,false positive,,
+24394,,https://github.com/naman14/Timber/pull/279,naman14/Timber,false positive,false positive,,
+24418,,https://github.com/spring-projects/spring-framework/pull/1163,spring-projects/spring-framework,false positive,false positive,,
+24423,,https://github.com/freedomotic/freedomotic/pull/309,freedomotic/freedomotic,false positive,false positive,,
+24439,,https://github.com/apache/incubator-gobblin/pull/2535,apache/incubator-gobblin,false positive,false positive,,
+24454,,https://github.com/MovingBlocks/DestinationSol/pull/352,MovingBlocks/DestinationSol,false positive,false positive,,
+24512,,https://github.com/TEAMMATES/teammates/pull/6393,TEAMMATES/teammates,false positive,false positive,,
+24526,,https://github.com/rsksmart/rskj/pull/439,rsksmart/rskj,false positive,false positive,,
+24550,,https://github.com/netty/netty/pull/56,netty/netty,false positive,false positive,,
+24553,,https://github.com/netty/netty/pull/2803,netty/netty,false positive,false positive,,
+22997,,https://github.com/spring-cloud/spring-cloud-netflix/pull/443,spring-cloud/spring-cloud-netflix,NULL,,,
+23000,,https://github.com/bisq-network/bisq/pull/526,bisq-network/bisq,NULL,,,
+23002,,https://github.com/Esri/maps-app-android/pull/69,Esri/maps-app-android,NULL,,,
+23004,,https://github.com/Catrobat/Paintroid/pull/593,Catrobat/Paintroid,NULL,,,
+23005,,https://github.com/Catrobat/Paintroid/pull/149,Catrobat/Paintroid,NULL,,,
+23010,,https://github.com/k9mail/k-9/pull/2582,k9mail/k-9,NULL,,,
+23015,,https://github.com/apache/ignite/pull/6524,apache/ignite,NULL,,,
+23016,,https://github.com/apache/ignite/pull/6083,apache/ignite,NULL,,,
+23017,,https://github.com/apache/ignite/pull/4385,apache/ignite,NULL,,,
+23018,,https://github.com/apache/ignite/pull/2412,apache/ignite,NULL,,,
+23019,,https://github.com/bitcoinj/bitcoinj/pull/1826,bitcoinj/bitcoinj,NULL,,,
+23035,,https://github.com/spring-projects/spring-security-oauth/pull/1519,spring-projects/spring-security-oauth,NULL,,,
+23041,,https://github.com/spring-projects/spring-security-oauth/pull/45,spring-projects/spring-security-oauth,NULL,,,
+23044,,https://github.com/syndesisio/syndesis/pull/4625,syndesisio/syndesis,NULL,,,
+23045,,https://github.com/shrinkwrap/resolver/pull/17,shrinkwrap/resolver,NULL,,,
+23046,,https://github.com/apache/commons-lang/pull/276,apache/commons-lang,NULL,,,
+23055,,https://github.com/apache/eagle/pull/797,apache/eagle,NULL,,,
+23056,,https://github.com/apache/eagle/pull/792,apache/eagle,NULL,,,
+23058,,https://github.com/apache/eagle/pull/750,apache/eagle,NULL,,,
+23059,,https://github.com/apache/eagle/pull/705,apache/eagle,NULL,,,
+23060,,https://github.com/apache/eagle/pull/670,apache/eagle,NULL,,,
+23061,,https://github.com/apache/eagle/pull/562,apache/eagle,NULL,,,
+23064,,https://github.com/apache/eagle/pull/394,apache/eagle,NULL,,,
+23066,,https://github.com/apache/eagle/pull/326,apache/eagle,NULL,,,
+23067,,https://github.com/apache/eagle/pull/296,apache/eagle,NULL,,,
+23073,1,https://github.com/samtools/htsjdk/pull/309,samtools/htsjdk,NULL,,,
+23088,,https://github.com/spring-projects/spring-integration/pull/465,spring-projects/spring-integration,NULL,,,
+23090,,https://github.com/spring-projects/spring-integration/pull/192,spring-projects/spring-integration,NULL,,,
+23093,,https://github.com/spring-projects/spring-integration/pull/138,spring-projects/spring-integration,NULL,,,
+23094,,https://github.com/spring-projects/spring-integration/pull/136,spring-projects/spring-integration,NULL,,,
+23095,,https://github.com/spring-projects/spring-integration/pull/124,spring-projects/spring-integration,NULL,,,
+23096,,https://github.com/spring-projects/spring-integration/pull/86,spring-projects/spring-integration,NULL,,,
+23097,,https://github.com/spring-projects/spring-integration/pull/79,spring-projects/spring-integration,NULL,,,
+23105,,https://github.com/getodk/collect/pull/475,getodk/collect,NULL,,,
+23112,,https://github.com/oltpbenchmark/oltpbench/pull/168,oltpbenchmark/oltpbench,NULL,,,
+23115,,https://github.com/jdbi/jdbi/pull/226,jdbi/jdbi,NULL,,,
+23117,,https://github.com/zeromq/jeromq/pull/274,zeromq/jeromq,NULL,,,
+23144,,https://github.com/apache/cloudstack/pull/266,apache/cloudstack,NULL,,,
+23158,,https://github.com/apache/beam/pull/3847,apache/beam,NULL,,,
+23160,,https://github.com/apache/beam/pull/3682,apache/beam,NULL,,,
+23167,,https://github.com/apache/beam/pull/2117,apache/beam,NULL,,,
+23169,,https://github.com/apache/beam/pull/1977,apache/beam,NULL,,,
+23171,,https://github.com/apache/beam/pull/1835,apache/beam,NULL,,,
+23173,,https://github.com/apache/beam/pull/1341,apache/beam,NULL,,,
+23178,,https://github.com/apache/beam/pull/775,apache/beam,NULL,,,
+23180,,https://github.com/apache/beam/pull/230,apache/beam,NULL,,,
+23181,,https://github.com/apache/beam/pull/226,apache/beam,NULL,,,
+23183,,https://github.com/apache/accumulo/pull/294,apache/accumulo,NULL,,,
+23192,,https://github.com/TheAlgorithms/Java/pull/815,TheAlgorithms/Java,NULL,,,
+23197,,https://github.com/TheAlgorithms/Java/pull/478,TheAlgorithms/Java,NULL,,,
+23199,1,https://github.com/linkedin/parseq/pull/66,linkedin/parseq,NULL,,,
+23203,,https://github.com/Bukkit/Bukkit/pull/1106,Bukkit/Bukkit,NULL,,,
+23204,,https://github.com/Bukkit/Bukkit/pull/771,Bukkit/Bukkit,NULL,,,
+23206,,https://github.com/Bukkit/Bukkit/pull/383,Bukkit/Bukkit,NULL,,,
+23218,,https://github.com/keycloak/keycloak/pull/2659,keycloak/keycloak,NULL,,,
+23225,,https://github.com/SonarSource/sonarqube/pull/1241,SonarSource/sonarqube,NULL,,,
+23227,,https://github.com/SonarSource/sonarqube/pull/317,SonarSource/sonarqube,NULL,,,
+23228,,https://github.com/SonarSource/sonarqube/pull/265,SonarSource/sonarqube,NULL,,,
+23229,,https://github.com/SonarSource/sonarqube/pull/120,SonarSource/sonarqube,NULL,,,
+23230,,https://github.com/SonarSource/sonarqube/pull/80,SonarSource/sonarqube,NULL,,,
+23232,,https://github.com/mitreid-connect/OpenID-Connect-Java-Spring-Server/pull/340,mitreid-connect/OpenID-Connect-Java-Spring-Server,NULL,,,
+23233,,https://github.com/apache/netbeans/pull/1589,apache/netbeans,NULL,,,
+23236,,https://github.com/apache/netbeans/pull/96,apache/netbeans,NULL,,,
+23240,,https://github.com/opennars/opennars/pull/67,opennars/opennars,NULL,,,
+23243,,https://github.com/vaadin/flow/pull/263,vaadin/flow,NULL,,,
+23244,,https://github.com/jenkinsci/docker-plugin/pull/507,jenkinsci/docker-plugin,NULL,,,
+23246,,https://github.com/selendroid/selendroid/pull/965,selendroid/selendroid,NULL,,,
+23255,,https://github.com/cgeo/cgeo/pull/367,cgeo/cgeo,NULL,,,
+23257,,https://github.com/jitsi/jitsi-videobridge/pull/567,jitsi/jitsi-videobridge,NULL,,,
+23260,,https://github.com/xetorthio/jedis/pull/801,xetorthio/jedis,NULL,,,
+23265,,https://github.com/linkedin/brooklin/pull/8,linkedin/brooklin,NULL,,,
+23266,,https://github.com/eclipse/deeplearning4j/pull/7564,eclipse/deeplearning4j,NULL,,,
+23272,,https://github.com/graknlabs/grakn/pull/2510,graknlabs/grakn,NULL,,,
+23284,,https://github.com/gocd/gocd/pull/2701,gocd/gocd,NULL,,,
+23293,,https://github.com/qiscus/qiscus-sdk-android/pull/68,qiscus/qiscus-sdk-android,NULL,,,
+23298,,https://github.com/VoltDB/voltdb/pull/4477,VoltDB/voltdb,NULL,,,
+23300,,https://github.com/VoltDB/voltdb/pull/3603,VoltDB/voltdb,NULL,,,
+23303,1,https://github.com/VoltDB/voltdb/pull/1407,VoltDB/voltdb,NULL,,,
+23304,1,https://github.com/VoltDB/voltdb/pull/866,VoltDB/voltdb,NULL,,,
+23305,,https://github.com/VoltDB/voltdb/pull/4,VoltDB/voltdb,NULL,,,
+23309,,https://github.com/qaprosoft/carina/pull/233,qaprosoft/carina,NULL,,,
+23310,,https://github.com/SpongePowered/SpongeAPI/pull/2006,SpongePowered/SpongeAPI,NULL,,,
+23313,,https://github.com/SpongePowered/SpongeAPI/pull/1766,SpongePowered/SpongeAPI,NULL,,,
+23314,1,https://github.com/SpongePowered/SpongeAPI/pull/1695,SpongePowered/SpongeAPI,NULL,,,
+23326,,https://github.com/openMF/mifos-mobile/pull/73,openMF/mifos-mobile,NULL,,,
+23331,,https://github.com/TeamAmaze/AmazeFileManager/pull/1131,TeamAmaze/AmazeFileManager,NULL,,,
+23332,,https://github.com/openzipkin/zipkin/pull/257,openzipkin/zipkin,NULL,,,
+23333,,https://github.com/openzipkin/zipkin/pull/159,openzipkin/zipkin,NULL,,,
+23334,,https://github.com/openzipkin/zipkin/pull/154,openzipkin/zipkin,NULL,,,
+23335,,https://github.com/openzipkin/zipkin/pull/153,openzipkin/zipkin,NULL,,,
+23336,,https://github.com/openzipkin/zipkin/pull/147,openzipkin/zipkin,NULL,,,
+23340,,https://github.com/openzipkin/zipkin/pull/148,openzipkin/zipkin,NULL,,,
+23341,,https://github.com/alibaba/fastjson/pull/672,alibaba/fastjson,NULL,,,
+23347,,https://github.com/selenide/selenide/pull/581,selenide/selenide,NULL,,,
+23352,,https://github.com/apache/geode/pull/1058,apache/geode,NULL,,,
+23354,,https://github.com/apache/geode/pull/882,apache/geode,NULL,,,
+23355,,https://github.com/apache/geode/pull/745,apache/geode,NULL,,,
+23358,,https://github.com/apache/geode/pull/679,apache/geode,NULL,,,
+23359,,https://github.com/apache/geode/pull/647,apache/geode,NULL,,,
+23360,,https://github.com/apache/geode/pull/80,apache/geode,NULL,,,
+23363,,https://github.com/randoop/randoop/pull/62,randoop/randoop,NULL,,,
+23370,1,https://github.com/apache/cassandra/pull/446,apache/cassandra,NULL,,,
+23371,,https://github.com/apache/cassandra/pull/244,apache/cassandra,NULL,,,
+23375,,https://github.com/TownyAdvanced/Towny/pull/3147,TownyAdvanced/Towny,NULL,,,
+23379,,https://github.com/kiegroup/optaplanner/pull/121,kiegroup/optaplanner,NULL,,,
+23382,,https://github.com/osmlab/atlas/pull/379,osmlab/atlas,NULL,,,
+23387,,https://github.com/DroidPlanner/Tower/pull/1107,DroidPlanner/Tower,NULL,,,
+23388,,https://github.com/DroidPlanner/Tower/pull/926,DroidPlanner/Tower,NULL,,,
+23389,,https://github.com/DroidPlanner/Tower/pull/460,DroidPlanner/Tower,NULL,,,
+23391,,https://github.com/android-async-http/android-async-http/pull/194,android-async-http/android-async-http,NULL,,,
+23395,,https://github.com/saros-project/saros/pull/259,saros-project/saros,NULL,,,
+23397,1,https://github.com/saros-project/saros/pull/211,saros-project/saros,NULL,,,
+23402,1,https://github.com/SpongePowered/SpongeCommon/pull/1769,SpongePowered/SpongeCommon,NULL,,,
+23406,,https://github.com/SpongePowered/SpongeCommon/pull/594,SpongePowered/SpongeCommon,NULL,,,
+23407,1,https://github.com/SpongePowered/SpongeCommon/pull/502,SpongePowered/SpongeCommon,NULL,,,
+23410,,https://github.com/neo4j/neo4j/pull/5929,neo4j/neo4j,NULL,,,
+23416,,https://github.com/neo4j/neo4j/pull/4732,neo4j/neo4j,NULL,,,
+23422,,https://github.com/apache/skywalking/pull/1091,apache/skywalking,NULL,,,
+23424,,https://github.com/tlaukkan/zigbee4java/pull/96,tlaukkan/zigbee4java,NULL,,,
+23427,1,https://github.com/eclipse/eclipse.jdt.ls/pull/420,eclipse/eclipse.jdt.ls,NULL,,,
+23432,,https://github.com/ballerina-platform/ballerina-lang/pull/13362,ballerina-platform/ballerina-lang,NULL,,,
+23433,,https://github.com/ballerina-platform/ballerina-lang/pull/11380,ballerina-platform/ballerina-lang,NULL,,,
+23435,,https://github.com/ballerina-platform/ballerina-lang/pull/8668,ballerina-platform/ballerina-lang,NULL,,,
+23440,,https://github.com/graphhopper/graphhopper/pull/1460,graphhopper/graphhopper,NULL,,,
+23449,,https://github.com/jMonkeyEngine/jmonkeyengine/pull/274,jMonkeyEngine/jmonkeyengine,NULL,,,
+23452,,https://github.com/magefree/mage/pull/3001,magefree/mage,NULL,,,
+23456,,https://github.com/alibaba/flutter_boost/pull/110,alibaba/flutter_boost,NULL,,,
+23459,1,https://github.com/ome/bioformats/pull/1985,ome/bioformats,NULL,,,
+23462,,https://github.com/flightstats/hub/pull/1061,flightstats/hub,NULL,,,
+23463,1,https://github.com/forge/core/pull/578,forge/core,NULL,,,
+23464,,https://github.com/forge/core/pull/577,forge/core,NULL,,,
+23468,1,https://github.com/connectbot/connectbot/pull/7,connectbot/connectbot,NULL,,,
+23472,,https://github.com/Activiti/Activiti/pull/127,Activiti/Activiti,NULL,,,
+23474,,https://github.com/ChrisRM/material-theme-jetbrains/pull/22,ChrisRM/material-theme-jetbrains,NULL,,,
+23481,,https://github.com/tronprotocol/java-tron/pull/264,tronprotocol/java-tron,NULL,,,
+23482,,https://github.com/asciidoctor/asciidoctorj/pull/197,asciidoctor/asciidoctorj,NULL,,,
+23483,,https://github.com/apache/hadoop/pull/43,apache/hadoop,NULL,,,
+23492,,https://github.com/prestodb/presto/pull/9422,prestodb/presto,NULL,,,
+23498,,https://github.com/prestodb/presto/pull/6701,prestodb/presto,NULL,,,
+23508,,https://github.com/prestodb/presto/pull/13432,prestodb/presto,NULL,,,
+23511,,https://github.com/prestodb/presto/pull/7498,prestodb/presto,NULL,,,
+23521,1,https://github.com/Syncleus/aparapi/pull/28,Syncleus/aparapi,NULL,,,
+23522,,https://github.com/azkaban/azkaban/pull/1487,azkaban/azkaban,NULL,,,
+23523,,https://github.com/azkaban/azkaban/pull/1291,azkaban/azkaban,NULL,,,
+23526,,https://github.com/apache/bookkeeper/pull/1407,apache/bookkeeper,NULL,,,
+23527,,https://github.com/apache/bookkeeper/pull/1365,apache/bookkeeper,NULL,,,
+23529,,https://github.com/apache/bookkeeper/pull/1264,apache/bookkeeper,NULL,,,
+23531,,https://github.com/apache/bookkeeper/pull/1008,apache/bookkeeper,NULL,,,
+23532,,https://github.com/apache/bookkeeper/pull/913,apache/bookkeeper,NULL,,,
+23535,,https://github.com/apache/bookkeeper/pull/814,apache/bookkeeper,NULL,,,
+23537,,https://github.com/apache/bookkeeper/pull/176,apache/bookkeeper,NULL,,,
+23538,,https://github.com/bazelbuild/bazel/pull/9028,bazelbuild/bazel,NULL,,,
+23540,,https://github.com/bazelbuild/bazel/pull/7179,bazelbuild/bazel,NULL,,,
+23544,,https://github.com/bazelbuild/bazel/pull/8264,bazelbuild/bazel,NULL,,,
+23545,,https://github.com/bazelbuild/bazel/pull/7930,bazelbuild/bazel,NULL,,,
+23547,,https://github.com/apache/tajo/pull/1000,apache/tajo,NULL,,,
+23548,,https://github.com/apache/tajo/pull/911,apache/tajo,NULL,,,
+23550,,https://github.com/apache/tajo/pull/763,apache/tajo,NULL,,,
+23551,,https://github.com/apache/tajo/pull/731,apache/tajo,NULL,,,
+23552,,https://github.com/apache/tajo/pull/637,apache/tajo,NULL,,,
+23554,,https://github.com/apache/tajo/pull/570,apache/tajo,NULL,,,
+23555,,https://github.com/apache/tajo/pull/567,apache/tajo,NULL,,,
+23557,,https://github.com/apache/tajo/pull/338,apache/tajo,NULL,,,
+23566,,https://github.com/molgenis/molgenis/pull/6934,molgenis/molgenis,NULL,,,
+23567,1,https://github.com/molgenis/molgenis/pull/6625,molgenis/molgenis,NULL,,,
+23571,,https://github.com/apache/kafka/pull/5842,apache/kafka,NULL,,,
+23577,,https://github.com/apache/kafka/pull/3087,apache/kafka,NULL,,,
+23579,,https://github.com/apache/kafka/pull/2635,apache/kafka,NULL,,,
+23583,,https://github.com/apache/kafka/pull/2013,apache/kafka,NULL,,,
+23584,,https://github.com/apache/kafka/pull/303,apache/kafka,NULL,,,
+23590,,https://github.com/apache/kafka/pull/3761,apache/kafka,NULL,,,
+23593,,https://github.com/apache/kafka/pull/3389,apache/kafka,NULL,,,
+23595,,https://github.com/apache/kafka/pull/2888,apache/kafka,NULL,,,
+23597,,https://github.com/apache/kafka/pull/2123,apache/kafka,NULL,,,
+23598,,https://github.com/apache/kafka/pull/2053,apache/kafka,NULL,,,
+23599,,https://github.com/apache/kafka/pull/1736,apache/kafka,NULL,,,
+23601,,https://github.com/apache/kafka/pull/839,apache/kafka,NULL,,,
+23607,,https://github.com/wildfly/wildfly-core/pull/2844,wildfly/wildfly-core,NULL,,,
+23621,,https://github.com/ldtteam/minecolonies/pull/3747,ldtteam/minecolonies,NULL,,,
+23623,,https://github.com/intuit/wasabi/pull/94,intuit/wasabi,NULL,,,
+23624,,https://github.com/googleapis/google-cloud-java/pull/781,googleapis/google-cloud-java,NULL,,,
+23630,,https://github.com/marklogic/marklogic-data-hub/pull/1395,marklogic/marklogic-data-hub,NULL,,,
+23631,,https://github.com/marklogic/marklogic-data-hub/pull/1291,marklogic/marklogic-data-hub,NULL,,,
+23636,,https://github.com/broadinstitute/gatk/pull/2041,broadinstitute/gatk,NULL,,,
+23646,,https://github.com/mapbox/mapbox-navigation-android/pull/2215,mapbox/mapbox-navigation-android,NULL,,,
+23647,,https://github.com/caelum/vraptor4/pull/1001,caelum/vraptor4,NULL,,,
+23649,,https://github.com/cerberustesting/cerberus-source/pull/892,cerberustesting/cerberus-source,NULL,,,
+23650,,https://github.com/joel-costigliola/assertj-core/pull/1875,joel-costigliola/assertj-core,NULL,,,
+23651,,https://github.com/joel-costigliola/assertj-core/pull/1055,joel-costigliola/assertj-core,NULL,,,
+23652,,https://github.com/joel-costigliola/assertj-core/pull/364,joel-costigliola/assertj-core,NULL,,,
+23657,,https://github.com/fossasia/phimpme-android/pull/44,fossasia/phimpme-android,NULL,,,
+23660,,https://github.com/yegor256/takes/pull/632,yegor256/takes,NULL,,,
+23670,,https://github.com/apache/usergrid/pull/232,apache/usergrid,NULL,,,
+23673,,https://github.com/reposense/RepoSense/pull/97,reposense/RepoSense,NULL,,,
+23676,,https://github.com/mulesoft/mule/pull/7553,mulesoft/mule,NULL,,,
+23679,,https://github.com/CellularPrivacy/Android-IMSI-Catcher-Detector/pull/591,CellularPrivacy/Android-IMSI-Catcher-Detector,NULL,,,
+23683,,https://github.com/EnMasseProject/enmasse/pull/3233,EnMasseProject/enmasse,NULL,,,
+23690,,https://github.com/Cognifide/aet/pull/406,Cognifide/aet,NULL,,,
+23691,,https://github.com/Cognifide/aet/pull/89,Cognifide/aet,NULL,,,
+23692,,https://github.com/UniversalMediaServer/UniversalMediaServer/pull/1566,UniversalMediaServer/UniversalMediaServer,NULL,,,
+23697,,https://github.com/apache/incubator-datasketches-java/pull/83,apache/incubator-datasketches-java,NULL,,,
+23698,,https://github.com/apache/parquet-mr/pull/74,apache/parquet-mr,NULL,,,
+23702,,https://github.com/runelite/runelite/pull/5830,runelite/runelite,NULL,,,
+23705,,https://github.com/robolectric/robolectric/pull/2593,robolectric/robolectric,NULL,,,
+23706,,https://github.com/apache/samza/pull/942,apache/samza,NULL,,,
+23708,,https://github.com/apache/samza/pull/927,apache/samza,NULL,,,
+23710,,https://github.com/apache/samza/pull/807,apache/samza,NULL,,,
+23712,,https://github.com/apache/samza/pull/634,apache/samza,NULL,,,
+23714,,https://github.com/apache/samza/pull/458,apache/samza,NULL,,,
+23716,,https://github.com/apache/samza/pull/348,apache/samza,NULL,,,
+23717,,https://github.com/apache/samza/pull/262,apache/samza,NULL,,,
+23718,,https://github.com/apache/samza/pull/148,apache/samza,NULL,,,
+23719,,https://github.com/apache/samza/pull/53,apache/samza,NULL,,,
+23720,,https://github.com/apache/samza/pull/25,apache/samza,NULL,,,
+23726,1,https://github.com/apache/shardingsphere/pull/5213,apache/shardingsphere,NULL,,,
+23727,1,https://github.com/apache/shardingsphere/pull/4166,apache/shardingsphere,NULL,,,
+23740,,https://github.com/canoo/dolphin-platform/pull/439,canoo/dolphin-platform,NULL,,,
+23742,,https://github.com/dhis2/dhis2-core/pull/4423,dhis2/dhis2-core,NULL,,,
+23750,,https://github.com/eclipse-vertx/vert.x/pull/943,eclipse-vertx/vert.x,NULL,,,
+23752,,https://github.com/dotCMS/core/pull/14855,dotCMS/core,NULL,,,
+23753,,https://github.com/ddf-project/DDF/pull/280,ddf-project/DDF,NULL,,,
+23754,,https://github.com/INRIA/spoon/pull/3212,INRIA/spoon,NULL,,,
+23757,,https://github.com/INRIA/spoon/pull/2693,INRIA/spoon,NULL,,,
+23769,,https://github.com/INRIA/spoon/pull/2340,INRIA/spoon,NULL,,,
+23773,,https://github.com/INRIA/spoon/pull/2206,INRIA/spoon,NULL,,,
+23784,,https://github.com/INRIA/spoon/pull/1350,INRIA/spoon,NULL,,,
+23786,,https://github.com/INRIA/spoon/pull/184,INRIA/spoon,NULL,,,
+23787,,https://github.com/apache/nifi/pull/4289,apache/nifi,NULL,,,
+23788,,https://github.com/apache/nifi/pull/4263,apache/nifi,NULL,,,
+23793,,https://github.com/apache/nifi/pull/2958,apache/nifi,NULL,,,
+23800,,https://github.com/apache/nifi/pull/1083,apache/nifi,NULL,,,
+23803,,https://github.com/apache/nifi/pull/413,apache/nifi,NULL,,,
+23804,,https://github.com/apache/nifi/pull/210,apache/nifi,NULL,,,
+23808,,https://github.com/hazelcast/hazelcast/pull/16879,hazelcast/hazelcast,NULL,,,
+23811,,https://github.com/micrometer-metrics/micrometer/pull/1162,micrometer-metrics/micrometer,NULL,,,
+23812,,https://github.com/micrometer-metrics/micrometer/pull/358,micrometer-metrics/micrometer,NULL,,,
+23821,,https://github.com/Multiverse/Multiverse-Core/pull/277,Multiverse/Multiverse-Core,NULL,,,
+23826,,https://github.com/hibernate/hibernate-orm/pull/1220,hibernate/hibernate-orm,NULL,,,
+23831,,https://github.com/inception-project/inception/pull/1065,inception-project/inception,NULL,,,
+23833,,https://github.com/Jasig/uPortal/pull/76,Jasig/uPortal,NULL,,,
+23838,,https://github.com/eclipse/birt/pull/85,eclipse/birt,NULL,,,
+23839,,https://github.com/jenkinsci/bitbucket-branch-source-plugin/pull/286,jenkinsci/bitbucket-branch-source-plugin,NULL,,,
+23843,,https://github.com/apache/flink/pull/11797,apache/flink,NULL,,,
+23845,,https://github.com/apache/flink/pull/11721,apache/flink,NULL,,,
+23849,,https://github.com/apache/flink/pull/9485,apache/flink,NULL,,,
+23850,,https://github.com/apache/flink/pull/8210,apache/flink,NULL,,,
+23851,,https://github.com/apache/flink/pull/7841,apache/flink,NULL,,,
+23852,,https://github.com/apache/flink/pull/7037,apache/flink,NULL,,,
+23854,,https://github.com/apache/flink/pull/5127,apache/flink,NULL,,,
+23858,,https://github.com/apache/flink/pull/3046,apache/flink,NULL,,,
+23863,,https://github.com/apache/flink/pull/1789,apache/flink,NULL,,,
+23866,,https://github.com/apache/flink/pull/1347,apache/flink,NULL,,,
+23877,,https://github.com/apache/flink/pull/9948,apache/flink,NULL,,,
+23881,,https://github.com/apache/flink/pull/6683,apache/flink,NULL,,,
+23882,,https://github.com/apache/flink/pull/6173,apache/flink,NULL,,,
+23886,,https://github.com/apache/flink/pull/4488,apache/flink,NULL,,,
+23897,,https://github.com/apache/flink/pull/12456,apache/flink,NULL,,,
+23898,,https://github.com/elastic/elasticsearch/pull/52923,elastic/elasticsearch,NULL,,,
+23899,,https://github.com/elastic/elasticsearch/pull/46954,elastic/elasticsearch,NULL,,,
+23900,,https://github.com/elastic/elasticsearch/pull/44875,elastic/elasticsearch,NULL,,,
+23902,,https://github.com/elastic/elasticsearch/pull/36677,elastic/elasticsearch,NULL,,,
+23911,,https://github.com/elastic/elasticsearch/pull/29575,elastic/elasticsearch,NULL,,,
+23912,,https://github.com/elastic/elasticsearch/pull/28734,elastic/elasticsearch,NULL,,,
+23916,,https://github.com/elastic/elasticsearch/pull/17731,elastic/elasticsearch,NULL,,,
+23917,,https://github.com/elastic/elasticsearch/pull/16844,elastic/elasticsearch,NULL,,,
+23925,,https://github.com/elastic/elasticsearch/pull/12367,elastic/elasticsearch,NULL,,,
+23928,,https://github.com/elastic/elasticsearch/pull/11986,elastic/elasticsearch,NULL,,,
+23932,,https://github.com/elastic/elasticsearch/pull/11021,elastic/elasticsearch,NULL,,,
+23942,,https://github.com/elastic/elasticsearch/pull/7675,elastic/elasticsearch,NULL,,,
+23948,,https://github.com/elastic/elasticsearch/pull/3520,elastic/elasticsearch,NULL,,,
+23951,,https://github.com/ebean-orm/ebean/pull/1324,ebean-orm/ebean,NULL,,,
+23956,,https://github.com/OpenLiberty/open-liberty/pull/1513,OpenLiberty/open-liberty,NULL,,,
+23957,,https://github.com/naver/pinpoint/pull/4686,naver/pinpoint,NULL,,,
+23963,,https://github.com/veraPDF/veraPDF-library/pull/20,veraPDF/veraPDF-library,NULL,,,
+23970,1,https://github.com/signalapp/Signal-Android/pull/3663,signalapp/Signal-Android,NULL,,,
+23971,,https://github.com/signalapp/Signal-Android/pull/3504,signalapp/Signal-Android,NULL,,,
+23976,,https://github.com/Discord4J/Discord4J/pull/275,Discord4J/Discord4J,NULL,,,
+23984,,https://github.com/jenkinsci/jenkins/pull/3663,jenkinsci/jenkins,NULL,,,
+23990,,https://github.com/apache/zeppelin/pull/3323,apache/zeppelin,NULL,,,
+23992,,https://github.com/apache/zeppelin/pull/2972,apache/zeppelin,NULL,,,
+23993,,https://github.com/apache/zeppelin/pull/2953,apache/zeppelin,NULL,,,
+23994,,https://github.com/apache/zeppelin/pull/2615,apache/zeppelin,NULL,,,
+23995,,https://github.com/apache/zeppelin/pull/2221,apache/zeppelin,NULL,,,
+23997,,https://github.com/apache/zeppelin/pull/1722,apache/zeppelin,NULL,,,
+23999,,https://github.com/apache/zeppelin/pull/1612,apache/zeppelin,NULL,,,
+24011,,https://github.com/radargun/radargun/pull/368,radargun/radargun,NULL,,,
+24013,,https://github.com/radargun/radargun/pull/233,radargun/radargun,NULL,,,
+24014,,https://github.com/radargun/radargun/pull/209,radargun/radargun,NULL,,,
+24015,,https://github.com/radargun/radargun/pull/204,radargun/radargun,NULL,,,
+24018,,https://github.com/radargun/radargun/pull/159,radargun/radargun,NULL,,,
+24019,,https://github.com/radargun/radargun/pull/86,radargun/radargun,NULL,,,
+24021,,https://github.com/apache/storm/pull/387,apache/storm,NULL,,,
+24023,,https://github.com/apache/storm/pull/1340,apache/storm,NULL,,,
+24024,,https://github.com/NucleusPowered/Nucleus/pull/53,NucleusPowered/Nucleus,NULL,,,
+24025,,https://github.com/apache/lucene-solr/pull/800,apache/lucene-solr,NULL,,,
+24028,,https://github.com/apache/lucene-solr/pull/390,apache/lucene-solr,NULL,,,
+24030,,https://github.com/apache/cayenne/pull/8,apache/cayenne,NULL,,,
+24031,,https://github.com/apache/cayenne/pull/2,apache/cayenne,NULL,,,
+24032,,https://github.com/apache/cayenne/pull/1,apache/cayenne,NULL,,,
+24047,,https://github.com/apache/metamodel/pull/34,apache/metamodel,NULL,,,
+24061,,https://github.com/wildfly/wildfly/pull/7283,wildfly/wildfly,NULL,,,
+24082,,https://github.com/google/error-prone/pull/917,google/error-prone,NULL,,,
+24093,,https://github.com/apache/reef/pull/1154,apache/reef,NULL,,,
+24097,,https://github.com/apache/reef/pull/1096,apache/reef,NULL,,,
+24099,,https://github.com/apache/reef/pull/580,apache/reef,NULL,,,
+24100,,https://github.com/apache/reef/pull/210,apache/reef,NULL,,,
+24104,,https://github.com/apache/plc4x/pull/33,apache/plc4x,NULL,,,
+24111,,https://github.com/apache/dubbo/pull/4998,apache/dubbo,NULL,,,
+24122,,https://github.com/spring-projects/spring-boot/pull/20805,spring-projects/spring-boot,NULL,,,
+24127,,https://github.com/GoogleCloudPlatform/google-cloud-eclipse/pull/3344,GoogleCloudPlatform/google-cloud-eclipse,NULL,,,
+24131,1,https://github.com/Azure/azure-iot-sdk-java/pull/410,Azure/azure-iot-sdk-java,NULL,,,
+24132,,https://github.com/halo-dev/halo/pull/88,halo-dev/halo,NULL,,,
+24133,,https://github.com/EssentialsX/Essentials/pull/2190,EssentialsX/Essentials,NULL,,,
+24137,,https://github.com/openmrs/openmrs-core/pull/2739,openmrs/openmrs-core,NULL,,,
+24141,,https://github.com/openmrs/openmrs-core/pull/516,openmrs/openmrs-core,NULL,,,
+24145,,https://github.com/CODAIT/stocator/pull/69,CODAIT/stocator,NULL,,,
+24147,,https://github.com/Azure/azure-libraries-for-java/pull/1153,Azure/azure-libraries-for-java,NULL,,,
+24153,,https://github.com/apache/systemml/pull/877,apache/systemml,NULL,,,
+24154,,https://github.com/apache/systemml/pull/774,apache/systemml,NULL,,,
+24155,,https://github.com/apache/systemml/pull/679,apache/systemml,NULL,,,
+24157,,https://github.com/apache/systemml/pull/663,apache/systemml,NULL,,,
+24162,,https://github.com/zendesk/maxwell/pull/356,zendesk/maxwell,NULL,,,
+24167,,https://github.com/CloudSlang/cloud-slang/pull/1064,CloudSlang/cloud-slang,NULL,,,
+24169,1,https://github.com/odpi/egeria/pull/3050,odpi/egeria,NULL,,,
+24170,,https://github.com/odpi/egeria/pull/2950,odpi/egeria,NULL,,,
+24171,,https://github.com/odpi/egeria/pull/127,odpi/egeria,NULL,,,
+24173,,https://github.com/infinispan/infinispan/pull/5136,infinispan/infinispan,NULL,,,
+24174,,https://github.com/infinispan/infinispan/pull/4605,infinispan/infinispan,NULL,,,
+24180,,https://github.com/bonitasoft/bonita-engine/pull/89,bonitasoft/bonita-engine,NULL,,,
+24183,,https://github.com/JnRouvignac/AutoRefactor/pull/248,JnRouvignac/AutoRefactor,NULL,,,
+24184,,https://github.com/wordpress-mobile/gutenberg-mobile/pull/1054,wordpress-mobile/gutenberg-mobile,NULL,,,
+24186,,https://github.com/graphhopper/jsprit/pull/291,graphhopper/jsprit,NULL,,,
+24189,,https://github.com/ippontech/tatami/pull/33,ippontech/tatami,NULL,,,
+24193,1,https://github.com/docker-java/docker-java/pull/645,docker-java/docker-java,NULL,,,
+24197,,https://github.com/sirixdb/sirix/pull/200,sirixdb/sirix,NULL,,,
+24201,,https://github.com/pentaho/pentaho-kettle/pull/4310,pentaho/pentaho-kettle,NULL,,,
+24202,,https://github.com/eclipse/leshan/pull/43,eclipse/leshan,NULL,,,
+24203,,https://github.com/eclipse/leshan/pull/39,eclipse/leshan,NULL,,,
+24204,,https://github.com/PegaSysEng/teku/pull/1331,PegaSysEng/teku,NULL,,,
+24210,,https://github.com/MinecraftForge/MinecraftForge/pull/604,MinecraftForge/MinecraftForge,NULL,,,
+24212,1,https://github.com/google/guava/pull/2519,google/guava,NULL,,,
+24213,,https://github.com/google/guava/pull/2869,google/guava,NULL,,,
+24214,,https://github.com/fcrepo4/fcrepo4/pull/895,fcrepo4/fcrepo4,NULL,,,
+24216,1,https://github.com/fcrepo4/fcrepo4/pull/415,fcrepo4/fcrepo4,NULL,,,
+24218,,https://github.com/fcrepo4/fcrepo4/pull/345,fcrepo4/fcrepo4,NULL,,,
+24220,,https://github.com/fcrepo4/fcrepo4/pull/263,fcrepo4/fcrepo4,NULL,,,
+24221,,https://github.com/nextcloud/android/pull/1183,nextcloud/android,NULL,,,
+24228,,https://github.com/sendgrid/sendgrid-java/pull/149,sendgrid/sendgrid-java,NULL,,,
+24230,1,https://github.com/spring-cloud/spring-cloud-config/pull/1120,spring-cloud/spring-cloud-config,NULL,,,
+24235,,https://github.com/facebook/buck/pull/463,facebook/buck,NULL,,,
+24236,,https://github.com/facebook/buck/pull/1707,facebook/buck,NULL,,,
+24237,,https://github.com/facebook/buck/pull/944,facebook/buck,NULL,,,
+24239,,https://github.com/apache/griffin/pull/320,apache/griffin,NULL,,,
+24240,,https://github.com/apache/griffin/pull/305,apache/griffin,NULL,,,
+24241,,https://github.com/apache/griffin/pull/279,apache/griffin,NULL,,,
+24243,,https://github.com/apache/camel/pull/437,apache/camel,NULL,,,
+24247,,https://github.com/perwendel/spark/pull/667,perwendel/spark,NULL,,,
+24250,,https://github.com/FAForever/downlords-faf-client/pull/1354,FAForever/downlords-faf-client,NULL,,,
+24254,,https://github.com/apache/drill/pull/1312,apache/drill,NULL,,,
+24258,,https://github.com/apache/drill/pull/1218,apache/drill,NULL,,,
+24268,,https://github.com/apache/incubator-heron/pull/3049,apache/incubator-heron,NULL,,,
+24272,,https://github.com/locationtech/geowave/pull/837,locationtech/geowave,NULL,,,
+24283,,https://github.com/apache/attic-apex-core/pull/117,apache/attic-apex-core,NULL,,,
+24287,,https://github.com/vespa-engine/vespa/pull/9017,vespa-engine/vespa,NULL,,,
+24291,,https://github.com/spacewalkproject/spacewalk/pull/330,spacewalkproject/spacewalk,NULL,,,
+24292,,https://github.com/spacewalkproject/spacewalk/pull/321,spacewalkproject/spacewalk,NULL,,,
+24298,,https://github.com/confluentinc/ksql/pull/4034,confluentinc/ksql,NULL,,,
+24304,,https://github.com/thingsboard/thingsboard/pull/773,thingsboard/thingsboard,NULL,,,
+24306,,https://github.com/openrocket/openrocket/pull/456,openrocket/openrocket,NULL,,,
+24307,,https://github.com/apache/kylin/pull/838,apache/kylin,NULL,,,
+24308,,https://github.com/apache/incubator-iotdb/pull/736,apache/incubator-iotdb,NULL,,,
+24315,1,https://github.com/googleapis/java-bigtable-hbase/pull/2025,googleapis/java-bigtable-hbase,NULL,,,
+24316,,https://github.com/googleapis/java-bigtable-hbase/pull/1285,googleapis/java-bigtable-hbase,NULL,,,
+24317,,https://github.com/googleapis/java-bigtable-hbase/pull/1280,googleapis/java-bigtable-hbase,NULL,,,
+24348,,https://github.com/eclipse/kura/pull/1082,eclipse/kura,NULL,,,
+24350,,https://github.com/santiontanon/microrts/pull/54,santiontanon/microrts,NULL,,,
+24352,,https://github.com/iotaledger/iri/pull/1015,iotaledger/iri,NULL,,,
+24366,,https://github.com/Wikia/selenium-tests/pull/959,Wikia/selenium-tests,NULL,,,
+24369,1,https://github.com/Wikia/selenium-tests/pull/13,Wikia/selenium-tests,NULL,,,
+24373,,https://github.com/palantir/atlasdb/pull/3495,palantir/atlasdb,NULL,,,
+24374,,https://github.com/palantir/atlasdb/pull/3472,palantir/atlasdb,NULL,,,
+24380,1,https://github.com/palantir/atlasdb/pull/272,palantir/atlasdb,NULL,,,
+24385,,https://github.com/maxcom/lorsource/pull/497,maxcom/lorsource,NULL,,,
+24386,,https://github.com/maxcom/lorsource/pull/370,maxcom/lorsource,NULL,,,
+24387,,https://github.com/maxcom/lorsource/pull/154,maxcom/lorsource,NULL,,,
+24388,,https://github.com/maxcom/lorsource/pull/153,maxcom/lorsource,NULL,,,
+24389,,https://github.com/maxcom/lorsource/pull/127,maxcom/lorsource,NULL,,,
+24390,,https://github.com/maxcom/lorsource/pull/123,maxcom/lorsource,NULL,,,
+24391,,https://github.com/scalecube/scalecube-services/pull/585,scalecube/scalecube-services,NULL,,,
+24401,,https://github.com/NationalSecurityAgency/datawave/pull/245,NationalSecurityAgency/datawave,NULL,,,
+24402,,https://github.com/uyuni-project/uyuni/pull/1288,uyuni-project/uyuni,NULL,,,
+24405,1,https://github.com/JabRef/jabref/pull/1077,JabRef/jabref,NULL,,,
+24406,,https://github.com/realm/realm-java/pull/4918,realm/realm-java,NULL,,,
+24407,,https://github.com/elasticjob/elastic-job-lite/pull/338,elasticjob/elastic-job-lite,NULL,,,
+24408,,https://github.com/elasticjob/elastic-job-lite/pull/288,elasticjob/elastic-job-lite,NULL,,,
+24409,1,https://github.com/FISCO-BCOS/web3sdk/pull/155,FISCO-BCOS/web3sdk,NULL,,,
+24410,,https://github.com/FISCO-BCOS/web3sdk/pull/144,FISCO-BCOS/web3sdk,NULL,,,
+24411,,https://github.com/apache/helix/pull/5,apache/helix,NULL,,,
+24412,,https://github.com/spring-projects/spring-framework/pull/25148,spring-projects/spring-framework,NULL,,,
+24425,,https://github.com/freedomotic/freedomotic/pull/103,freedomotic/freedomotic,NULL,,,
+24426,,https://github.com/freedomotic/freedomotic/pull/102,freedomotic/freedomotic,NULL,,,
+24427,,https://github.com/freedomotic/freedomotic/pull/101,freedomotic/freedomotic,NULL,,,
+24428,,https://github.com/freedomotic/freedomotic/pull/100,freedomotic/freedomotic,NULL,,,
+24429,,https://github.com/freedomotic/freedomotic/pull/93,freedomotic/freedomotic,NULL,,,
+24430,,https://github.com/freedomotic/freedomotic/pull/80,freedomotic/freedomotic,NULL,,,
+24431,,https://github.com/freedomotic/freedomotic/pull/78,freedomotic/freedomotic,NULL,,,
+24435,,https://github.com/apache/incubator-gobblin/pull/2872,apache/incubator-gobblin,NULL,,,
+24440,,https://github.com/apache/incubator-gobblin/pull/2363,apache/incubator-gobblin,NULL,,,
+24441,,https://github.com/apache/incubator-gobblin/pull/2329,apache/incubator-gobblin,NULL,,,
+24444,,https://github.com/eclipse/openj9/pull/504,eclipse/openj9,NULL,,,
+24445,,https://github.com/hortonworks/cloudbreak/pull/4994,hortonworks/cloudbreak,NULL,,,
+24457,,https://github.com/oliexdev/openScale/pull/328,oliexdev/openScale,NULL,,,
+24465,,https://github.com/ls1intum/Artemis/pull/185,ls1intum/Artemis,NULL,,,
+24466,,https://github.com/ls1intum/Artemis/pull/166,ls1intum/Artemis,NULL,,,
+24469,,https://github.com/apache/zookeeper/pull/1255,apache/zookeeper,NULL,,,
+24474,,https://github.com/MovingBlocks/Terasology/pull/1108,MovingBlocks/Terasology,NULL,,,
+24477,,https://github.com/MovingBlocks/Terasology/pull/679,MovingBlocks/Terasology,NULL,,,
+24478,1,https://github.com/MegaMek/megamek/pull/1105,MegaMek/megamek,NULL,,,
+24479,,https://github.com/apache/metron/pull/1494,apache/metron,NULL,,,
+24481,,https://github.com/apache/metron/pull/1368,apache/metron,NULL,,,
+24484,,https://github.com/apache/metron/pull/909,apache/metron,NULL,,,
+24486,,https://github.com/apache/metron/pull/348,apache/metron,NULL,,,
+24487,,https://github.com/apache/metron/pull/53,apache/metron,NULL,,,
+24488,,https://github.com/apache/metron/pull/28,apache/metron,NULL,,,
+24493,,https://github.com/apache/groovy/pull/544,apache/groovy,NULL,,,
+24494,,https://github.com/apache/groovy/pull/318,apache/groovy,NULL,,,
+24502,,https://github.com/TEAMMATES/teammates/pull/7541,TEAMMATES/teammates,NULL,,,
+24503,,https://github.com/TEAMMATES/teammates/pull/6994,TEAMMATES/teammates,NULL,,,
+24504,,https://github.com/TEAMMATES/teammates/pull/6908,TEAMMATES/teammates,NULL,,,
+24517,,https://github.com/OpenNMS/opennms/pull/1247,OpenNMS/opennms,NULL,,,
+24528,,https://github.com/codice/ddf/pull/5804,codice/ddf,NULL,,,
+24529,,https://github.com/codice/ddf/pull/5197,codice/ddf,NULL,,,
+24533,,https://github.com/codice/ddf/pull/3787,codice/ddf,NULL,,,
+24535,,https://github.com/spring-projects/spring-petclinic/pull/238,spring-projects/spring-petclinic,NULL,,,
+24539,,https://github.com/dropwizard/dropwizard/pull/728,dropwizard/dropwizard,NULL,,,
+24546,,https://github.com/netty/netty/pull/1330,netty/netty,NULL,,,
+24547,,https://github.com/netty/netty/pull/949,netty/netty,NULL,,,
+24548,,https://github.com/netty/netty/pull/301,netty/netty,NULL,,,
+24549,,https://github.com/netty/netty/pull/247,netty/netty,NULL,,,
+24552,,https://github.com/netty/netty/pull/3206,netty/netty,NULL,,,
+24561,,https://github.com/Catrobat/Catroid/pull/2731,Catrobat/Catroid,NULL,,,
+24563,,https://github.com/Catrobat/Catroid/pull/2375,Catrobat/Catroid,NULL,,,
+24564,,https://github.com/Catrobat/Catroid/pull/1547,Catrobat/Catroid,NULL,,,
+24565,1,https://github.com/Catrobat/Catroid/pull/1140,Catrobat/Catroid,NULL,,,
+24567,,https://github.com/Catrobat/Catroid/pull/1023,Catrobat/Catroid,NULL,,,
