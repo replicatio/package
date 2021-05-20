@@ -15,3 +15,7 @@
 
    * **all-anonymized-finished-responses.csv** — All anonymized survey responses
 
+   * **repos-descriptive-stats.csv** — Descriptive statistics about taxonomy repositories
+
+   * **taxonomy-analysis-by-type-of-system-or-contributor.csv** — Taxonomy analysis depending on system or contributor type
+
